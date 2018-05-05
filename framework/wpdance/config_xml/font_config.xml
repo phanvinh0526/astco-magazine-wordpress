@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+Name: WP DANCE
+Slug: font_default
+Description: custom font for default.
+-->
+<items_setting>
+	<general>
+		<title>General</title>
+		<section>tvlgiao_wpdance_font_general_section</section>
+		<description>Custom font site</description>
+		<items>
+			<item>
+				<name>Body Font</name>
+				<slug>tvlgiao_wpdance_font_body_font</slug>
+				<std>HelvetiCaneue</std>
+				<description>Font Default: HelvetiCaneue</description>
+				<frontend>
+					<selector_normal>body, .wd-blog-breadcrumb.breadcrumb_default .title-cotainer-header h3, .wd-blog-breadcrumb.breadcrumb_default .blog-slug .woocommerce-breadcrumb, .wd-search-post.style-2 form.searchform input[type='text'], .vc_wp_search .widget_search .searchform input[type='text'], .wd_tini_cart_wrapper .wd_tini_cart_control a .num_item, .wd_tini_cart_wrapper .cart_dropdown h5.wd_cart_item_info, footer.footer .wd_special_post_wrapper.style-1 .widget_list_post_inner ul li .wd-entry-title a, footer.footer .widget.widget_recent_post .widget_per_slide li .wd-entry-title a, footer.footer .subscribe_widget .subscribe_form form .subscribe-email input[type='text'], .content_blog .wd_item_blog .item_content .content_title a, .content_blog_masonry .cards-wrap .card .item_content .content_title a, .wd-related_posts .wd-related-post .wd-related-wrapper .wd-related-slider .wd-related-item .wd-info-post .wd-title-post h2.wd-heading-title a, .wd-wrap-content-blog .wd-info-post .wd-title-post h2.wd-heading-title a, .wd-related_posts .wd-related-post .wd-title-wrapper .entry-title, .wd-comment-form .wd_title_comment h3.heading-title, .wd-comment-form #wd-comments #respond .wd_title_respond h3.heading-title, .wd-comment-form #wd-comments #respond #commentform span.label, .wd-comment-form #wd-comments #respond #commentform .comment-message-wrapper span.label, .widget.widget_product_categories ul.product-categories li a, .widget.widget_product_categories ul.product-categories li.cat-item a, .widget.widget_product_categories ul li a, .widget.widget_product_categories ul li.cat-item a, .widget.widget_categories ul.product-categories li a, .widget.widget_categories ul.product-categories li.cat-item a, .widget.widget_categories ul li a, .widget.widget_categories ul li.cat-item a, .widget.widget_archive ul.product-categories li a, .widget.widget_archive ul.product-categories li.cat-item a, .widget.widget_archive ul li a, .widget.widget_archive ul li.cat-item a, .widget.widget_recent_entries ul.product-categories li a, .widget.widget_recent_entries ul.product-categories li.cat-item a, .widget.widget_recent_entries ul li a, .widget.widget_recent_entries ul li.cat-item a, .widget.widget_price_filter .price_slider_wrapper .price_slider_amount .price_label, .widget.widget_layered_nav li a, .widget.widget_search form.searchform input[type='text'], .widget.widget_calendar .calendar_wrap table tr td, html .woocommerce form.woocommerce-ordering select, html .woocommerce form.woocommerce-checkout label, html .woocommerce form.woocommerce-checkout .select2-container a.select2-choice , .wd-blog-breadcrumb.breadcrumb_default .title-cotainer-header h3, .wd-blog-breadcrumb.breadcrumb_default .blog-slug .woocommerce-breadcrumb, .wd-team-member .sc_testimonial .project .sky-carousel .sc-content-wrapper .sc-content-container .sc-content, .wd-team-member .sc_testimonial .project .sky-carousel .sc-content-wrapper .sc-content-container .sc-content .wd-member-name-role h3, html .vc_general.vc_tta.vc_tta-accordion.vc_tta-style-outline .vc_tta-panels .vc_tta-panel .vc_tta-panel-heading h4.vc_tta-panel-title a, html .vc_general.vc_tta.vc_tta-accordion.vc_tta-style-modern .vc_tta-panels .vc_tta-panel .vc_tta-panel-heading h4.vc_tta-panel-title a, html .vc_general.vc_tta.vc_tta-accordion.vc_tta-style-modern .vc_tta-panels .vc_tta-panel .vc_tta-panel-heading h4.vc_tta-panel-title a .vc_tta-controls-icon.vc_tta-controls-icon-plus:before, html .vc_general.vc_tta.vc_tta-accordion.vc_tta-style-flat .vc_tta-panels .vc_tta-panel .vc_tta-panel-heading h4.vc_tta-panel-title a, html .vc_general.vc_tta.vc_tta-accordion.vc_tta-style-classic .vc_tta-panels .vc_tta-panel .vc_tta-panel-heading h4.vc_tta-panel-title a, html .vc_toggle .vc_toggle_title h4, .wd-404-error .wd-error-404 .wd-page-header h1.wd-page-title, html .vc_tta-container .vc_general.vc_tta-tabs.vc_tta-style-classic .vc_tta-panels-container .vc_tta-panels .vc_tta-panel .vc_tta-panel-heading h4.vc_tta-panel-title a, .wd-shortcode-special-grid-portfolio .grid-item .wd-wrap-content-inner .wd-content-portfolio .wd-title-portfolio h2.wd-heading-title a, .wd-shortcode-masonry-portfolio .grid-item .wd-wrap-content-inner .wd-content-portfolio .wd-title-portfolio h2.wd-heading-title a, .wd-shortcode-special-grid-portfolio .grid-item .wd-wrap-content-inner .wd-content-portfolio .wd-category-portfolio, .wd-shortcode-masonry-portfolio .grid-item .wd-wrap-content-inner .wd-content-portfolio .wd-category-portfolio, .wd-shortcode-special-grid-portfolio .grid-item .wd-wrap-content-inner .wd-content-portfolio .wd-category-portfolio a, .wd-shortcode-masonry-portfolio .grid-item .wd-wrap-content-inner .wd-content-portfolio .wd-category-portfolio a, html .woocommerce-account .woocommerce-MyAccount-navigation ul li a, html .woocommerce .wd-content-single-product.wd_recently_pro .wp_single_recent_product h2.wd-title, .woocommerce .product .summary .price .amount, .woocommerce .product .summary form.variations_form td label , .woocommerce .product .summary form.variations_form td select, .woocommerce .product .summary form.variations_form .variations_button .quantity input[type='number'], html .woocommerce .product .woocommerce-tabs ul.tabs li a, .woocommerce .wd-ralated-product h2.wd-heading-title, input[type='text'], input[type='email'], input[type='password'], input[type='tel'], textarea</selector_normal>
+					<selector_important>			
+					</selector_important>
+				</frontend>
+			</item>	
+			<item>
+				<name>Title Font</name>
+				<slug>tvlgiao_wpdance_font_title_font</slug>
+				<std>HelvetiCaneueBlod</std>
+				<description>Font Default: HelvetiCaneueBlod</description>
+				<frontend>
+					<selector_normal>h1, h1.tp-caption, h3, h3.tp-caption, h4, h4.tp-caption, h5, h5.tp-caption, h6, h6.tp-caption, .wd_tini_cart_wrapper .cart_dropdown ul.cart_list li .cart_item_wrapper .quantity, .wd_tini_cart_wrapper .cart_dropdown .dropdown_footer .total .link_color_hover, footer.footer .wd-social-icons .wd-title h2, footer.footer .wd_special_post_wrapper.style-1 .wd-title h2, footer.footer .widget .widgettitle, footer.footer .widget .widget-title, footer.footer .subscribe_widget .wd-subscribe-header h2, footer.footer .wd_recent_comments_wrapper .wd-title h2, nav.ubermenu-horizontal .ubermenu-nav li.ubermenu-item-level-0 > ul.ubermenu-submenu .ubermenu-column.ubermenu-item-header > a.ubermenu-target span.ubermenu-target-title, .wd-content-single .wd-infomation-author .author a, .wd-content-single .wd-info-post .wd-title-post h2.wd-heading-title a, .wd-content-single .wd-info-post .wd-content-detail-post .wd-tag-post span, .widget .widget-title, .widget.widget_calendar .calendar_wrap table tr th, .price .amount, html .woocommerce .cart-form form table.shop_table thead tr th, html .woocommerce .cart-form form table.shop_table tbody tr td.product-price .amount, html .woocommerce .cart-form form table.shop_table tbody tr td.product-subtotal .amount, html .woocommerce .cart-form form .actions .button, html .woocommerce .cart-form form .actions .coupon label, html .woocommerce .cart-collaterals .cart_totals h2, html .woocommerce .cart-collaterals .cart_totals table tr td strong .amount, html .woocommerce .cart-collaterals .cart_totals .wc-proceed-to-checkout a.checkout-button , html .woocommerce form.woocommerce-checkout h3, html .woocommerce form.woocommerce-checkout table.shop_table thead tr th, html .woocommerce form.woocommerce-checkout #payment.woocommerce-checkout-payment input.button.alt, .wd-blog-breadcrumb.breadcrumb_banner .wrap-info-title .info-title .title-cotainer-header h3, .wd-shortcode-category li.item .category_info a h2, .wd-shortcode-category li.item .wd-cate-info a h2, .wd-shortcode-category .wd-cate-pro-by-name .category_info a h2, .wd-shortcode-category .wd-cate-pro-by-name .wd-cate-info a h2, .wd-content-blog li.item .category_info a h2, .wd-content-blog li.item .wd-cate-info a h2, .wd-content-blog .wd-cate-pro-by-name .category_info a h2, .wd-content-blog .wd-cate-pro-by-name .wd-cate-info a h2, blockquote, .wd-team-member .wd_member_info h3, .wd_price_table.price_style-1 .price_table_inner .price_in_table .mark, .wd_price_table.price_style-2 .price_table_inner ul li.prices .price_in_table .mark, .wd_price_table.price_style-4 .price_table_inner ul li.prices .price_in_table .pricing, .wd_price_table.price_style-5 .price_table_inner ul li.table_title h1, .wd_price_table.price_style-5 .price_table_inner ul li.prices .price_in_table, .wd_price_table.price_style-5 .price_table_inner ul li p, .wd_price_table.price_style-7 .price_table_inner ul li.table_title h1, .wd_price_table.price_style-7 .price_table_inner ul li.prices .value, .wd_price_table.price_style-7 .price_table_inner ul li.prices .pricing, .wd_price_table.price_style-8 .price_table_inner ul li.prices .price_in_table .value , .wd_price_table.price_style-8 .price_table_inner ul li.prices .price_in_table .pricing, .shortcode-features .style-font-1 .feature_information h3.feature_title a, .shortcode-features .style-font-2 .feature_information h3.feature_title a, .shortcode-features .style-font-3 .feature_information h3.feature_title a, .shortcode-features .style-font-4 .feature_information h3.feature_title a, .shortcode-features .style-font-5 .feature_information h3.feature_title a, .shortcode-features .style-font-6 .feature_information h3.feature_title a, .shortcode-features .style-font-7 .feature_information h3.feature_title a, .shortcode-features .style-thumbnail-1 .feature_information h3.feature_title a, .shortcode-features .style-thumbnail-2 .feature_information h3.feature_title a, .shortcode-features .style-thumbnail-3 .feature_information h3.feature_title a, .shortcode-features .style-thumbnail-4 .feature_information h3.feature_title a, .shortcode-features .style-thumbnail-5 .feature_information h3.feature_title a, .shortcode-features .style-thumbnail-6 .feature_information h3.feature_title a, .shortcode-features .style-thumbnail-7 .feature_information h3.feature_title a, .shortcode-features .style-font-8 .feature_information .feature_title a , .shortcode-features .style-font-9 .feature_information h3.feature_title, .wd-content-portfolio .wd-por-content .wd-title-post h2.wd-heading-title a, html .woocommerce table.wishlist_table thead tr th, html .woocommerce table.wishlist_table tbody tr td.product-price .amount, html .woocommerce table.wishlist_table tbody tr td.product-subtotal .amount, html .woocommerce table.wishlist_table tbody tr td.product-add-to-cart a.button, html .woocommerce .wd-content-single-product.wd_additional_left.wd_recently_pro .product .summary form.variations_form .variations_button .label_quantity, .woocommerce .product .summary h1.product_title, .woocommerce .product .summary .availability, .woocommerce .product .summary .wd_product_sku , html .woocommerce .product .woocommerce-tabs .panel #reviews.woocommerce-Reviews #review_form_wrapper h3.comment-reply-title, html .woocommerce span.onsale, html .woocommerce span.featured</selector_normal>
+					<selector_important>
+						
+					</selector_important>
+				</frontend>
+			</item>			
+		</items>
+	</general>
+	<menu>
+		<title>Menu Font Options</title>
+		<section>tvlgiao_wpdance_font_menu_section</section>
+		<description>Custom font menu</description>
+		<items>
+			<item>
+				<name>Main menu</name>
+				<slug>tvlgiao_wpdance_menu_main_menu</slug>
+				<std>HelvetiCaneue</std>
+				<description>Font Default: HelvetiCaneue</description>
+				<frontend>
+					<selector_normal>nav.ubermenu-horizontal .ubermenu-nav li.ubermenu-item-level-0 > a</selector_normal>
+				</frontend>
+			</item>
+			<item>
+				<name>Sub Menu</name>
+				<slug>tvlgiao_wpdance_menu_sub_menu</slug>
+				<std>HelvetiCaneue</std>
+				<description>Font Default: HelvetiCaneue</description>
+				<frontend>
+					<selector_normal>.wd_tini_account_wrapper .form_drop_down, .wd_tini_cart_wrapper .cart_dropdown, .wd-header-menu .nav > ul > li.page_item ul.children, .wd-header-menu .nav > ul > li.page_item ul.sub-menu, .wd-header-menu .nav > ul > li.menu-item ul.children, .wd-header-menu .nav > ul > li.menu-item ul.sub-menu, .wd-header-menu ul.nav > li.page_item ul.children, .wd-header-menu ul.nav > li.page_item ul.sub-menu, .wd-header-menu ul.nav > li.menu-item ul.children, .wd-header-menu ul.nav > li.menu-item ul.sub-menu, nav.ubermenu-horizontal .ubermenu-nav li.ubermenu-item-level-0 > ul.ubermenu-submenu .ubermenu-column.ubermenu-item-header > a.ubermenu-target span.ubermenu-target-title, nav.ubermenu-horizontal .ubermenu-nav li.ubermenu-item-level-0 > ul.ubermenu-submenu .ubermenu-column.ubermenu-item-header.ubermenu-item-object-post > a.ubermenu-target span.ubermenu-target-title, nav.ubermenu-horizontal .ubermenu-nav li.ubermenu-item-level-0 > ul.ubermenu-submenu .ubermenu-column.ubermenu-item-header.ubermenu-item-object-product > a.ubermenu-target span.ubermenu-target-title</selector_normal>
+				</frontend>
+			</item>
+		</items>
+	</menu>	
+	<product>
+		<title>Product Font Options</title>
+		<section>tvlgiao_wpdance_font_product_section</section>
+		<description>Custom font product</description>
+		<items>
+			<item>
+				<name>Product Name</name>
+				<slug>tvlgiao_wpdance_menu_main_product_name</slug>
+				<std>HelvetiCaneue</std>
+				<description>Font Default: HelvetiCaneue</description>
+				<frontend>
+					<selector_normal>.woocommerce .products.grid .product .wd-content-product .wd-content-detail h3, .woocommerce .products.grid_default .product .wd-content-product .wd-content-detail h3, .main-content .products.grid .product .wd-content-product .wd-content-detail h3, .main-content .products.grid_default .product .wd-content-product .wd-content-detail h3, .woocommerce .products.list li.product .wd-content-product .wd-content-detail h3, .main-content .products.list li.product .wd-content-product .wd-content-detail h3</selector_normal>
+				</frontend>
+			</item>
+			<item>
+				<name>Product Price</name>
+				<slug>tvlgiao_wpdance_menu_sub_product_price</slug>
+				<std>HelvetiCaneueBlod</std>
+				<description>Font Default: HelvetiCaneueBlod</description>
+				<frontend>
+					<selector_normal>html .woocommerce .cart-form form table.shop_table tbody tr td.product-price .amount, html .woocommerce .cart-form form table.shop_table tbody tr td.product-subtotal .amount, html .woocommerce .cart-collaterals .cart_totals table tr td .amount, html .woocommerce table.wishlist_table tbody tr td.product-price .amount, html .woocommerce table.wishlist_table tbody tr td.product-subtotal .amount, .price .amount</selector_normal>
+				</frontend>
+			</item>
+		</items>
+	</product>	
+</items_setting>

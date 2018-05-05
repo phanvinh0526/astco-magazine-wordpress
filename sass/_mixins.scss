@@ -1,0 +1,248 @@
+@mixin changeColor ($color, $color-hover){
+	color: $color;
+	&:hover,
+	&:focus,
+	&:active {color: $color-hover;text-decoration:none;}
+}
+
+@mixin hideText() {
+    font-size:0; 
+ 	display: block;
+	text-indent: -99999px;
+	overflow: hidden;
+	vertical-align: middle;
+	text-align: left;
+}//@include hideText();
+
+@mixin wp_table{
+	display:table; 
+	vertical-align:middle; 
+	width:100%;
+	margin:0;
+} 
+
+@mixin wp_tablecell{
+	display:table-cell; 
+	vertical-align:middle; 
+	float:none;
+} 
+
+@mixin changeIcon($width, $height, $animal, $bkg-position){
+	width:$width;
+	height:$height;
+	background-image: url('../images/#{$animal}.png');
+	background-position:$bkg-position;
+	background-repeat:no-repeat;
+}
+
+@mixin transition{
+	-moz-transition: all 300ms ease;
+	-webkit-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	transition: all 300ms ease;
+	-moz-backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	transition-duration:0.3s;	
+	-webkit-transition-duration:0.3s;	
+}
+
+@mixin border-radius($radius){
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	-ms-border-radius: $radius;
+	border-radius: $radius;
+}
+
+@mixin box-shadow($shadow...) {//0 -2px 10px #a3a3a3;
+  -webkit-box-shadow: $shadow; // iOS <4.3 & Android <4.1
+  -moz-box-shadow: $shadow;
+  box-shadow: $shadow;
+}
+
+// Opacity
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  // IE8 filter
+  $opacity-ie: ($opacity * 100);
+  filter: #{alpha(opacity=$opacity-ie)}; 
+}
+
+@mixin font-awesome($font,$font-size){
+	display: inline-block;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;	
+	content: unquote(str_insert("''", $font, 2));
+	font-size: $font-size;	
+}
+
+@mixin font-dashicons($font,$font-size){
+	display: inline-block;
+	font-family: dashicons;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;	
+	content : "#{$font}"; 
+	font-size:$font-size;
+}
+
+@mixin text-link(){
+	display:inline;
+    float:left;
+    ul,ol{
+        margin:0;
+		padding:0;
+        display:inline;
+        li{
+            margin:0 0px $var_space/2;
+			padding:0 $var_space/2;
+			float:none;
+			position:relative;
+			display:block;
+			text-align:center;
+			a{
+				color:$footer_text3_color;
+				 @include transition;
+				&:hover{color:$footer_text4_color;}
+			}
+			.sub-menu{ padding-left:$var_space/2;}
+        }
+    }	
+}
+
+/*=====Button Icon=====*/
+
+@mixin button{//add to cart(shop)
+	background:$btn2_bg_color;
+	border:none;
+	color: $btn2_text_color;
+	font:$btn2_font;
+	text-transform:uppercase;
+	display: inline-block;
+	padding: 13px ($var_space - 2px);
+	text-decoration: none; 
+	cursor:pointer;
+	@include transition;
+	@include border-radius(3px);
+	&:hover,&:focus,&:active{
+		background:$btn1_bg_color;
+		color: $btn1_text_color;
+		outline: none;  
+	}
+}
+
+
+@mixin button_icon($font,$font-size){/*product hover*/
+	@include border-radius(0);
+	font-size:0;
+	padding:13px;
+	margin:0;
+	float:left;
+	@include transition;
+	text-align:center;
+	&:before{
+		@include font-awesome($font,$font-size);
+		letter-spacing:1px;
+	}
+}
+
+@mixin button_addtocart{//product hover
+	background:$btn2_bg_color;
+	border:none;
+	color: $btn2_text_color;
+	font:$btn2_font;
+	text-transform:uppercase;
+	display: inline-block;
+	padding: 13px $var_space;
+	text-decoration: none; 
+	@include transition;
+	@include border-radius(3px);
+	&:hover,&:focus,&:active{
+		background:$btn1_bg_color;
+		color: $btn1_text_color;
+		outline: none;  
+	}
+}
+
+%title_productname{
+	font:400 14px/1.75 'HelvetiCaneue', Helvetica, Arial, sans-serif;
+	@include changeColor($main_name_color, $colorPrimary);
+	text-transform:uppercase;
+}	
+
+%effect_image{
+	position:relative;
+	overflow:hidden;
+	&:before{
+	    position: absolute;
+		content: '';
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+		-webkit-transition: all 500ms ease-in;
+		-o-transition: all 500ms ease-in;
+		transition: all 500ms ease-in;
+		background: rgba(0, 0, 0, 0.1);
+	}
+	img{
+		-webkit-transition: all 1000ms cubic-bezier(0.19, 1, 0.22, 1);
+		-o-transition: all 1000ms cubic-bezier(0.19, 1, 0.22, 1);
+		transition: all 1000ms cubic-bezier(0.19, 1, 0.22, 1);
+		-webkit-transform-origin: 0% 50%;
+		-moz-transform-origin: 0% 50%;
+		-ms-transform-origin: 0% 50%;
+		-o-transform-origin: 0% 50%;
+		transform-origin: 0% 50%;
+		backface-visibility: hidden;
+	}
+	&:hover{
+		img{
+		-webkit-transform: scale(2, 2) translateX(-20%);
+		-ms-transform: scale(2, 2) translateX(-20%);
+		-o-transform: scale(2, 2) translateX(-20%);
+		transform: scale(2, 2) translateX(-20%);
+		}
+		&:before{
+			background: rgba(0, 0, 0, 0.3);
+		}
+	}
+}
+%slider_control{
+	a{
+		display:block;
+		position:absolute;
+		top:0;
+		width:22px;
+		height:22px;
+		text-align:center;
+		line-height:22px;
+		font-size:0;
+		border-radius:3px;
+		background:$btn1_bg_color;
+		color:$btn4_bg_color;
+		&:hover{
+			background:$colorPrimary;
+			color:$btn2_text_color;
+		}
+		&.next, &.flex-next{
+			right:0;
+			&:before{
+				@include font-awesome(\f105, 12px);
+				line-height:22px;
+			}
+		}
+		&.prev, &.flex-prev{
+			right:25px;
+			&:before{
+				@include font-awesome(\f104, 12px);
+				line-height:22px;
+			}
+		}
+	}
+}

@@ -1,0 +1,1825 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPDANCE\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-08 14:32+0000\n"
+"PO-Revision-Date: 2016-11-09 04:00+0000\n"
+"Last-Translator: admin <tan.tran@codespot.vn>\n"
+"Language-Team: Vietnamese\n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: 404.php:20
+msgid "404"
+msgstr ""
+
+#: 404.php:21
+msgid "Sorry! Page Not Found !"
+msgstr "Xin lỗi ! Không tìm thấy kết quả !"
+
+#: comments.php:20
+msgid "comment"
+msgstr "bình luận"
+
+#: comments.php:30 comments.php:48
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr "<span class=\"meta-nav\">&larr;</span> Bình luận gần đây"
+
+#: comments.php:31 comments.php:49
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Bình luận mới nhất<span class=\"meta-nav\">&rarr;</span>"
+
+#: comments.php:54
+msgid "Comments are closed."
+msgstr "Đóng bình luận"
+
+#: content-magazine.php:14
+msgid "Down Load"
+msgstr "Tải Về"
+
+#: content-masonry.php:31 content-postformat.php:31
+#: framework/shortcodes/wd_blog_video.php:70
+#: framework/shortcodes/wd_blog_video.php:104
+msgid "Play Video"
+msgstr "Play Video"
+
+#: content-masonry.php:209 content-postformat.php:209
+msgid "by "
+msgstr "bởi"
+
+#: content-masonry.php:215 content-postformat.php:215
+msgid "in "
+msgstr "trong"
+
+#: content-masonry.php:216 content-postformat.php:216 content-single.php:22
+#: content.php:31 framework/shortcodes/wd_special_blog.php:71
+msgid ", "
+msgstr ","
+
+#: content-masonry.php:233 content-postformat.php:233 content-quote.php:10
+msgid "read more"
+msgstr "xem chi tiết"
+
+#: content-none.php:22
+msgid "Nothing Found"
+msgstr "Không tìm thấy"
+
+#: content-none.php:26
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:30
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:33
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: content-page.php:14 content-single.php:13
+msgid "Pages:"
+msgstr ""
+
+#: content-single.php:21 framework/functions/wd_woo_hook.php:71
+msgid "Tags: "
+msgstr ""
+
+#: content.php:36 framework/shortcodes/wd_post_special_slider.php:63
+#: framework/shortcodes/wd_special_blog.php:76
+#: framework/widgets/wd_special_post.php:91
+#: framework/widgets/wd_special_post.php:99
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: content.php:42 framework/shortcodes/wd_special_blog.php:85
+msgid "Read more"
+msgstr "Xem chi tiết"
+
+#: header.php:39
+msgid "Your browser does not support iframes."
+msgstr ""
+
+#: framework/abstract.php:186
+msgid "Primary"
+msgstr ""
+
+#: framework/abstract.php:187
+msgid "Primary Menu Mobile"
+msgstr ""
+
+#: framework/abstract.php:188
+msgid "Menu Footer"
+msgstr ""
+
+#. Name of the template
+msgid "Blog Template"
+msgstr ""
+
+#. Name of the template
+msgid "Home Template"
+msgstr ""
+
+#. Name of the template
+msgid "Not Breadcrum Template"
+msgstr ""
+
+#. Name of the template
+msgid "Page Template"
+msgstr ""
+
+#. Name of the template
+msgid "Woocommerce Template"
+msgstr ""
+
+#: templates/wd_related_posts.php:38
+msgid "Recent Posts"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:33
+#, php-format
+msgid "%s review for %s%s%s"
+msgid_plural "%s reviews for %s%s%s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product-reviews.php:35
+msgid "Reviews"
+msgstr "Đánh giá"
+
+#: woocommerce/single-product-reviews.php:56
+msgid "There are no reviews yet."
+msgstr "Không có đánh giá nào"
+
+#: woocommerce/single-product-reviews.php:69
+msgid "Add a review"
+msgstr "Thêm bình luận"
+
+#: woocommerce/single-product-reviews.php:69
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr "Bình luận đầu tiên &ldquo;%s&rdquo;"
+
+#: woocommerce/single-product-reviews.php:70
+#: framework/functions/wd_comment_form.php:48
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Phản hồi lại %s"
+
+#: woocommerce/single-product-reviews.php:73
+msgid "Name"
+msgstr "Tên"
+
+#: woocommerce/single-product-reviews.php:75
+msgid "Email"
+msgstr "Email"
+
+#: woocommerce/single-product-reviews.php:78
+msgid "Submit"
+msgstr "Bình luận"
+
+#: woocommerce/single-product-reviews.php:84
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr "Bạn phải đăng nhập để bình luận"
+
+#: woocommerce/single-product-reviews.php:88
+msgid "Your Rating"
+msgstr "Đánh giá của bạn"
+
+#: woocommerce/single-product-reviews.php:89
+msgid "Rate&hellip;"
+msgstr "Sao"
+
+#: woocommerce/single-product-reviews.php:90
+msgid "Perfect"
+msgstr "Tuyệt vời"
+
+#: woocommerce/single-product-reviews.php:91
+msgid "Good"
+msgstr "Tốt"
+
+#: woocommerce/single-product-reviews.php:92
+msgid "Average"
+msgstr "Trung Bình"
+
+#: woocommerce/single-product-reviews.php:93
+msgid "Not that bad"
+msgstr "Không quá tệ"
+
+#: woocommerce/single-product-reviews.php:94
+msgid "Very Poor"
+msgstr "Quá tệ"
+
+#: woocommerce/single-product-reviews.php:98
+msgid "Your Review"
+msgstr "Đánh giá của bạn"
+
+#: woocommerce/single-product-reviews.php:107
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: framework/functions/wd_breadcrumbs.php:25
+msgid "Home"
+msgstr "Trang chủ"
+
+#: framework/functions/wd_breadcrumbs.php:28
+msgid "Search results for "
+msgstr ""
+
+#: framework/functions/wd_breadcrumbs.php:29
+msgid "Error 404"
+msgstr ""
+
+#: framework/functions/wd_breadcrumbs.php:30
+msgid "Tagged "
+msgstr ""
+
+#: framework/functions/wd_breadcrumbs.php:31
+msgid "Articles posted by "
+msgstr ""
+
+#: framework/functions/wd_breadcrumbs.php:32
+msgid "Page"
+msgstr ""
+
+#: framework/functions/wd_breadcrumbs.php:33
+msgid "Portfolio"
+msgstr ""
+
+#: framework/functions/wd_comment_form.php:15
+msgid "Name*"
+msgstr "Tên*"
+
+#: framework/functions/wd_comment_form.php:16
+msgid "Email*"
+msgstr "Email*"
+
+#: framework/functions/wd_comment_form.php:17
+#: framework/functions/wd_comment_form.php:29
+msgid "Website"
+msgstr "Website"
+
+#: framework/functions/wd_comment_form.php:27
+msgid "Your name"
+msgstr "Họ Tên"
+
+#: framework/functions/wd_comment_form.php:28
+msgid "Your email"
+msgstr "Địa chỉ email"
+
+#: framework/functions/wd_comment_form.php:37
+#, php-format
+msgid "Required fields are marked %s"
+msgstr ""
+
+#: framework/functions/wd_comment_form.php:40
+msgid "Your message"
+msgstr ""
+
+#: framework/functions/wd_comment_form.php:41
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Bạn vui lòng đăng nhập để bình luận"
+
+#: framework/functions/wd_comment_form.php:42
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+"Tài khoản đăng nhập là <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" "
+"title=\"Log out of this account\">Đăng xuất?</a>"
+
+#: framework/functions/wd_comment_form.php:47
+msgid "Be first to comment"
+msgstr "Bình luận đầu tiên"
+
+#: framework/functions/wd_comment_form.php:49
+msgid "Cancel reply"
+msgstr "Hủy phản hồi"
+
+#: framework/functions/wd_comment_form.php:50
+msgid "POST COMMENT"
+msgstr "Bình luận"
+
+#: framework/functions/wd_main.php:216
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: framework/functions/wd_main.php:224
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: framework/functions/wd_main.php:259
+msgid "Search item here...."
+msgstr "Nhập từ khóa tìm kiếm"
+
+#: framework/functions/wd_main.php:353
+msgid "Back to Top"
+msgstr ""
+
+#: framework/functions/wd_main.php:377 framework/functions/wd_main.php:379
+#: framework/functions/wd_woo_account.php:23
+#: framework/functions/wd_woo_account.php:25
+#: framework/functions/wd_woo_account.php:35
+#: framework/functions/wd_woo_account.php:67
+#: framework/functions/wd_woo_account.php:67
+msgid "My Account"
+msgstr "Tài khoản"
+
+#: framework/functions/wd_main.php:381
+#: framework/functions/wd_woo_account.php:55
+msgid "Login"
+msgstr "Đăng nhập"
+
+#: framework/functions/wd_pagination.php:108
+msgid "Firt"
+msgstr ""
+
+#: framework/functions/wd_pagination.php:111
+msgid "Previous post"
+msgstr "Bài viết gần đây"
+
+#: framework/functions/wd_pagination.php:133
+msgid "Next Post"
+msgstr "Bài viết mới hơn"
+
+#: framework/functions/wd_pagination.php:135
+msgid "Last"
+msgstr ""
+
+#: framework/functions/wd_register_sidebar.php:5
+msgid "Sidebar"
+msgstr ""
+
+#: framework/functions/wd_register_sidebar.php:7
+msgid "Main sidebar that appears on the left."
+msgstr ""
+
+#: framework/functions/wd_register_sidebar.php:15
+msgid "Header Top Content"
+msgstr ""
+
+#: framework/functions/wd_register_sidebar.php:17
+msgid "Text infomation, languages, search, login...."
+msgstr ""
+
+#: framework/functions/wd_register_sidebar.php:24
+msgid "Banner Header Middle"
+msgstr ""
+
+#: framework/functions/wd_register_sidebar.php:26
+msgid "Banner business"
+msgstr ""
+
+#: framework/functions/wd_register_sidebar.php:34
+msgid "Footer Top Content 01"
+msgstr ""
+
+#: framework/functions/wd_register_sidebar.php:36
+msgid "Content footer top 01"
+msgstr ""
+
+#: framework/functions/wd_register_sidebar.php:43
+msgid "Footer Top Content 02"
+msgstr ""
+
+#: framework/functions/wd_register_sidebar.php:45
+msgid "Content footer top 02"
+msgstr ""
+
+#: framework/functions/wd_register_sidebar.php:52
+#: framework/functions/wd_register_sidebar.php:54
+msgid "Footer Middle Content"
+msgstr ""
+
+#: framework/functions/wd_register_sidebar.php:61
+#: framework/functions/wd_register_sidebar.php:63
+msgid "Footer Bottom Content"
+msgstr ""
+
+#: framework/functions/wd_register_sidebar.php:71
+msgid "BANNER VI - Sidebar left your site"
+msgstr ""
+
+#: framework/functions/wd_register_sidebar.php:73
+msgid "Sidebar left your site"
+msgstr ""
+
+#: framework/functions/wd_register_sidebar.php:80
+msgid "BANNER VI - Sidebar right your site"
+msgstr ""
+
+#: framework/functions/wd_register_sidebar.php:82
+msgid "Sidebar right your site"
+msgstr ""
+
+#: framework/functions/wd_register_sidebar.php:89
+msgid "BANNER VI - Top Archive And Single"
+msgstr ""
+
+#: framework/functions/wd_register_sidebar.php:91
+msgid "Top Archive And Single"
+msgstr ""
+
+#: framework/functions/wd_register_sidebar.php:98
+msgid "BANNER VI - Sidebar Left Archive And Single"
+msgstr ""
+
+#: framework/functions/wd_register_sidebar.php:100
+msgid "Sidebar Left Archive And Single"
+msgstr ""
+
+#: framework/functions/wd_register_sidebar.php:107
+msgid "BANNER VI - Sidebar left business"
+msgstr ""
+
+#: framework/functions/wd_register_sidebar.php:109
+msgid "Sidebar left business"
+msgstr ""
+
+#: framework/functions/wd_register_tgmpa_plugin.php:6
+msgid "WPBakery Visual Composer"
+msgstr ""
+
+#: framework/functions/wd_register_tgmpa_plugin.php:25
+msgid "Install Required Plugins"
+msgstr ""
+
+#: framework/functions/wd_register_tgmpa_plugin.php:26
+msgid "Install Plugins"
+msgstr ""
+
+#: framework/functions/wd_register_tgmpa_plugin.php:27
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: framework/functions/wd_register_tgmpa_plugin.php:28
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: framework/functions/wd_register_tgmpa_plugin.php:29
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/wd_register_tgmpa_plugin.php:30
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/wd_register_tgmpa_plugin.php:31
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s plugins."
+" Contact the administrator of this site for help on getting the plugins "
+"installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/wd_register_tgmpa_plugin.php:32
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/wd_register_tgmpa_plugin.php:33
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/wd_register_tgmpa_plugin.php:34
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s plugin."
+" Contact the administrator of this site for help on getting the plugin "
+"activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/wd_register_tgmpa_plugin.php:35
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/wd_register_tgmpa_plugin.php:36
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/wd_register_tgmpa_plugin.php:37
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/wd_register_tgmpa_plugin.php:38
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/wd_register_tgmpa_plugin.php:39
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: framework/functions/wd_register_tgmpa_plugin.php:40
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: framework/functions/wd_register_tgmpa_plugin.php:41
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: framework/functions/wd_woo_account.php:27
+msgid "Sing Up / Login"
+msgstr ""
+
+#: framework/functions/wd_woo_account.php:41
+msgid "User or Email"
+msgstr ""
+
+#: framework/functions/wd_woo_account.php:45
+msgid "Password"
+msgstr ""
+
+#: framework/functions/wd_woo_account.php:63
+msgid "or New to Goodly? "
+msgstr ""
+
+#: framework/functions/wd_woo_account.php:63
+msgid "Register"
+msgstr ""
+
+#: framework/functions/wd_woo_account.php:68
+#: framework/functions/wd_woo_account.php:68
+msgid "Logout"
+msgstr ""
+
+#: framework/functions/wd_woo_cart.php:19
+msgid "View your shopping bag"
+msgstr ""
+
+#: framework/functions/wd_woo_cart.php:34
+msgid " Item(s)"
+msgstr ""
+
+#: framework/functions/wd_woo_cart.php:37
+msgid "Cart"
+msgstr ""
+
+#: framework/functions/wd_woo_cart.php:48
+msgid "Shopping cart"
+msgstr ""
+
+#: framework/functions/wd_woo_cart.php:49
+msgid "There are "
+msgstr ""
+
+#: framework/functions/wd_woo_cart.php:49
+msgid " products in your shopping cart"
+msgstr ""
+
+#: framework/functions/wd_woo_cart.php:79 woocommerce/cart/cart.php:119
+msgid "Remove this item"
+msgstr ""
+
+#: framework/functions/wd_woo_cart.php:91
+msgid "You have no items in your shopping cart."
+msgstr ""
+
+#: framework/functions/wd_woo_cart.php:96
+msgid "Cart subtotal"
+msgstr ""
+
+#: framework/functions/wd_woo_cart.php:101
+msgid "View cart"
+msgstr ""
+
+#: framework/functions/wd_woo_cart.php:102
+msgid "Checkout"
+msgstr ""
+
+#: framework/functions/wd_woo_cart.php:142
+msgid "Check out"
+msgstr ""
+
+#: framework/functions/wd_woo_hook.php:29
+msgid "Add your review"
+msgstr ""
+
+#: framework/functions/wd_woo_hook.php:32
+msgid "Be the first to review"
+msgstr ""
+
+#: framework/functions/wd_woo_hook.php:40
+msgid "Availability"
+msgstr ""
+
+#: framework/functions/wd_woo_hook.php:46
+msgid "Sku:"
+msgstr ""
+
+#: framework/functions/wd_woo_hook.php:52
+msgid "Categories: "
+msgstr ""
+
+#: framework/functions/wd_woo_hook.php:89
+msgid "Share "
+msgstr ""
+
+#: framework/functions/wd_woo_hook.php:109
+msgid "RELATED ITEMS"
+msgstr ""
+
+#: framework/functions/wd_woo_hook.php:169
+msgid "Hot"
+msgstr ""
+
+#: framework/functions/wd_woo_hook.php:185
+msgid "Recently Viewed Products"
+msgstr ""
+
+#: framework/functions/wd_woo_product.php:18
+#: framework/functions/wd_woo_product.php:23
+#: framework/functions/wd_woo_product.php:43
+#: framework/functions/wd_woo_product.php:63
+msgid "In stock"
+msgstr ""
+
+#: framework/functions/wd_woo_product.php:23
+#, php-format
+msgid "Only %s left in stock"
+msgstr ""
+
+#: framework/functions/wd_woo_product.php:26
+#, php-format
+msgid "%s in stock"
+msgstr ""
+
+#: framework/functions/wd_woo_product.php:34
+msgid "(backorders allowed)"
+msgstr ""
+
+#: framework/functions/wd_woo_product.php:40
+#: framework/functions/wd_woo_product.php:53 woocommerce/cart/cart.php:80
+msgid "Available on backorder"
+msgstr ""
+
+#: framework/functions/wd_woo_product.php:46
+#: framework/functions/wd_woo_product.php:56
+#: framework/functions/wd_woo_product.php:60
+msgid "Out of stock"
+msgstr ""
+
+#: framework/includes/wd_custom_fields.php:9
+msgid "Config Post"
+msgstr ""
+
+#: framework/includes/wd_custom_fields.php:11
+msgid "Additional Attributes"
+msgstr ""
+
+#: framework/includes/wd_custom_fields.php:13
+msgid "Config Product"
+msgstr ""
+
+#: framework/lib/wd-add-control-custom-font.php:48
+msgid "Web Fonts"
+msgstr ""
+
+#: framework/lib/wd-add-control-custom-font.php:54
+msgid "Google Fonts"
+msgstr ""
+
+#: framework/shortcodes/wd_feedburner_subscription.php:8
+#: framework/visualcomposer/wd_vc_feedburner_subscription.php:16
+msgid "Sign up for Our Newsletter"
+msgstr ""
+
+#: framework/shortcodes/wd_feedburner_subscription.php:9
+#: framework/visualcomposer/wd_vc_feedburner_subscription.php:25
+msgid "A newsletter is a regularly distributed publication generally"
+msgstr ""
+
+#: framework/shortcodes/wd_feedburner_subscription.php:10
+#: framework/visualcomposer/wd_vc_feedburner_subscription.php:34
+msgid "Subscribe"
+msgstr ""
+
+#: framework/shortcodes/wd_feedburner_subscription.php:11
+#: framework/visualcomposer/wd_vc_feedburner_subscription.php:43
+msgid "WpComic-Manga"
+msgstr ""
+
+#: framework/shortcodes/wd_feedburner_subscription.php:24
+msgid "enter your email address"
+msgstr ""
+
+#: framework/visualcomposer/wd_vc_banner_image.php:4
+#: framework/visualcomposer/wd_vc_banner_image.php:6
+msgid "Banner Image"
+msgstr ""
+
+#: framework/visualcomposer/wd_vc_banner_image.php:7
+#: framework/visualcomposer/wd_vc_blog_special.php:16
+#: framework/visualcomposer/wd_vc_blog_video.php:16
+#: framework/visualcomposer/wd_vc_category_magazine.php:7
+#: framework/visualcomposer/wd_vc_current_date.php:7
+#: framework/visualcomposer/wd_vc_feedburner_subscription.php:7
+#: framework/visualcomposer/wd_vc_promotion_information.php:16
+#: framework/visualcomposer/wd_vc_special_post_slider.php:7
+msgid "WPDance"
+msgstr ""
+
+#: framework/visualcomposer/wd_vc_banner_image.php:12
+#: framework/wpdance/customize/wd_customize_theme_option.php:70
+msgid "Background Image"
+msgstr ""
+
+#: framework/visualcomposer/wd_vc_banner_image.php:20
+msgid "Button text"
+msgstr ""
+
+#: framework/visualcomposer/wd_vc_banner_image.php:27
+msgid "Link Button"
+msgstr ""
+
+#: framework/visualcomposer/wd_vc_banner_image.php:34
+msgid "Button class"
+msgstr ""
+
+#: framework/visualcomposer/wd_vc_banner_image.php:41
+msgid "Top"
+msgstr ""
+
+#: framework/visualcomposer/wd_vc_banner_image.php:43
+#: framework/visualcomposer/wd_vc_banner_image.php:50
+#: framework/visualcomposer/wd_vc_banner_image.php:57
+#: framework/visualcomposer/wd_vc_banner_image.php:64
+msgid "ex: 5%"
+msgstr ""
+
+#: framework/visualcomposer/wd_vc_banner_image.php:48
+msgid "Right"
+msgstr ""
+
+#: framework/visualcomposer/wd_vc_banner_image.php:55
+msgid "Bottom"
+msgstr ""
+
+#: framework/visualcomposer/wd_vc_banner_image.php:62
+msgid "Left"
+msgstr ""
+
+#: framework/visualcomposer/wd_vc_banner_image.php:69
+#: framework/visualcomposer/wd_vc_blog_special.php:143
+#: framework/visualcomposer/wd_vc_blog_video.php:82
+#: framework/visualcomposer/wd_vc_category_magazine.php:59
+#: framework/visualcomposer/wd_vc_current_date.php:12
+#: framework/visualcomposer/wd_vc_feedburner_subscription.php:48
+#: framework/visualcomposer/wd_vc_special_post_slider.php:90
+msgid "Extra class name"
+msgstr ""
+
+#: framework/visualcomposer/wd_vc_banner_image.php:70
+#: framework/visualcomposer/wd_vc_blog_special.php:144
+#: framework/visualcomposer/wd_vc_blog_video.php:83
+#: framework/visualcomposer/wd_vc_category_magazine.php:60
+#: framework/visualcomposer/wd_vc_current_date.php:13
+#: framework/visualcomposer/wd_vc_feedburner_subscription.php:49
+#: framework/visualcomposer/wd_vc_special_post_slider.php:91
+msgid ""
+"Style particular content element differently - add a class name and refer to "
+"it in custom CSS."
+msgstr ""
+
+#: framework/visualcomposer/wd_vc_blog_special.php:13
+msgid "Special Blog"
+msgstr ""
+
+#: framework/visualcomposer/wd_vc_blog_special.php:15
+#: framework/visualcomposer/wd_vc_blog_video.php:15
+msgid "Display info contact, email, telephone"
+msgstr ""
+
+#: framework/visualcomposer/wd_vc_blog_special.php:29
+#: framework/visualcomposer/wd_vc_blog_video.php:29
+#: framework/visualcomposer/wd_vc_special_post_slider.php:12
+msgid "Number Post"
+msgstr ""
+
+#: framework/visualcomposer/wd_vc_blog_special.php:30
+#: framework/visualcomposer/wd_vc_blog_video.php:30
+#: framework/visualcomposer/wd_vc_special_post_slider.php:13
+msgid "number"
+msgstr ""
+
+#: framework/visualcomposer/wd_vc_blog_special.php:38
+#: framework/visualcomposer/wd_vc_blog_video.php:38
+#: framework/visualcomposer/wd_vc_promotion_information.php:28
+#: framework/visualcomposer/wd_vc_special_post_slider.php:29
+msgid "Data Show"
+msgstr ""
+
+#: framework/visualcomposer/wd_vc_blog_special.php:49
+#: framework/visualcomposer/wd_vc_blog_video.php:49
+#: framework/visualcomposer/wd_vc_promotion_information.php:47
+msgid "Sort By"
+msgstr ""
+
+#: framework/visualcomposer/wd_vc_blog_special.php:61
+#: framework/visualcomposer/wd_vc_blog_video.php:61
+#: framework/visualcomposer/wd_vc_promotion_information.php:59
+msgid "Order By"
+msgstr ""
+
+#: framework/visualcomposer/wd_vc_blog_special.php:73
+#: framework/widgets/wd_special_post.php:265
+msgid "Show Thumbnail"
+msgstr ""
+
+#: framework/visualcomposer/wd_vc_blog_special.php:86
+#: framework/widgets/wd_special_post.php:269
+msgid "Show Author"
+msgstr ""
+
+#: framework/visualcomposer/wd_vc_blog_special.php:98
+msgid "Show Date"
+msgstr ""
+
+#: framework/visualcomposer/wd_vc_blog_special.php:110
+#: framework/visualcomposer/wd_vc_special_post_slider.php:41
+msgid "Show Excerpt"
+msgstr ""
+
+#: framework/visualcomposer/wd_vc_blog_special.php:122
+#: framework/visualcomposer/wd_vc_blog_video.php:73
+#: framework/visualcomposer/wd_vc_special_post_slider.php:54
+msgid "Number Excerpt"
+msgstr ""
+
+#: framework/visualcomposer/wd_vc_blog_special.php:123
+#: framework/visualcomposer/wd_vc_blog_video.php:74
+#: framework/visualcomposer/wd_vc_special_post_slider.php:55
+msgid "number excerpt"
+msgstr ""
+
+#: framework/visualcomposer/wd_vc_blog_special.php:131
+msgid "Show Readmore"
+msgstr ""
+
+#: framework/visualcomposer/wd_vc_blog_video.php:13
+msgid "Video Post"
+msgstr ""
+
+#: framework/visualcomposer/wd_vc_category_magazine.php:4
+#: framework/visualcomposer/wd_vc_category_magazine.php:6
+msgid "Category Magazine"
+msgstr ""
+
+#: framework/visualcomposer/wd_vc_category_magazine.php:12
+#: framework/visualcomposer/wd_vc_category_magazine.php:13
+#: framework/widgets/wd_business_partner.php:157
+msgid "Columns"
+msgstr ""
+
+#: framework/visualcomposer/wd_vc_category_magazine.php:21
+msgid "Is Slider"
+msgstr ""
+
+#: framework/visualcomposer/wd_vc_category_magazine.php:33
+#: framework/visualcomposer/wd_vc_special_post_slider.php:64
+msgid "Show Nav"
+msgstr ""
+
+#: framework/visualcomposer/wd_vc_category_magazine.php:46
+#: framework/visualcomposer/wd_vc_special_post_slider.php:77
+msgid "Auto Play"
+msgstr ""
+
+#: framework/visualcomposer/wd_vc_current_date.php:4
+#: framework/visualcomposer/wd_vc_current_date.php:6
+msgid "Current Date"
+msgstr ""
+
+#: framework/visualcomposer/wd_vc_feedburner_subscription.php:4
+#: framework/visualcomposer/wd_vc_feedburner_subscription.php:6
+msgid "Feedburner Subscriptions"
+msgstr ""
+
+#: framework/visualcomposer/wd_vc_feedburner_subscription.php:12
+#: framework/visualcomposer/wd_vc_feedburner_subscription.php:13
+#: framework/widgets/wd_business_partner.php:149
+#: framework/widgets/wd_special_post.php:242
+#: framework/widgets/wd_special_products.php:223
+msgid "Title"
+msgstr ""
+
+#: framework/visualcomposer/wd_vc_feedburner_subscription.php:21
+msgid "Enter your Intro Text"
+msgstr ""
+
+#: framework/visualcomposer/wd_vc_feedburner_subscription.php:22
+msgid "Intro text"
+msgstr ""
+
+#: framework/visualcomposer/wd_vc_feedburner_subscription.php:30
+msgid "Enter your Button"
+msgstr ""
+
+#: framework/visualcomposer/wd_vc_feedburner_subscription.php:31
+msgid "Button Text"
+msgstr ""
+
+#: framework/visualcomposer/wd_vc_feedburner_subscription.php:39
+msgid "Enter your Feedburner ID"
+msgstr ""
+
+#: framework/visualcomposer/wd_vc_promotion_information.php:13
+#: framework/visualcomposer/wd_vc_promotion_information.php:15
+msgid "Promotion Information"
+msgstr ""
+
+#: framework/visualcomposer/wd_vc_special_post_slider.php:4
+msgid "Special Post Slider"
+msgstr ""
+
+#: framework/visualcomposer/wd_vc_special_post_slider.php:6
+msgid "Display info slider home"
+msgstr ""
+
+#: framework/visualcomposer/wd_vc_special_post_slider.php:21
+msgid "Insert Post In Slider"
+msgstr ""
+
+#: framework/visualcomposer/wd_vc_special_post_slider.php:24
+msgid "Chose post and business partner"
+msgstr ""
+
+#: framework/widgets/wd_business_partner.php:6
+msgid "Business Partner"
+msgstr ""
+
+#: framework/widgets/wd_business_partner.php:7
+msgid "WD - Business Partner"
+msgstr ""
+
+#: framework/widgets/wd_business_partner.php:153
+#: framework/widgets/wd_special_products.php:241
+msgid "Number of product to show"
+msgstr ""
+
+#: framework/widgets/wd_business_partner.php:163
+msgid "Show Title"
+msgstr ""
+
+#: framework/widgets/wd_business_partner.php:168
+#: framework/widgets/wd_special_post.php:286
+#: framework/widgets/wd_special_products.php:263
+msgid "Slider - Show navigation button"
+msgstr ""
+
+#: framework/widgets/wd_business_partner.php:172
+#: framework/widgets/wd_special_post.php:290
+#: framework/widgets/wd_special_products.php:267
+msgid "Slider - Auto play"
+msgstr ""
+
+#: framework/widgets/wd_emads.php:10
+msgid "Advertisment  Widget"
+msgstr ""
+
+#: framework/widgets/wd_emads.php:12
+msgid "WD - Ads"
+msgstr ""
+
+#: framework/widgets/wd_emads.php:62
+msgid "Image Url"
+msgstr ""
+
+#: framework/widgets/wd_emads.php:64
+msgid "Ads Url"
+msgstr ""
+
+#: framework/widgets/wd_emads.php:66
+msgid "Image title"
+msgstr ""
+
+#: framework/widgets/wd_emads.php:68
+msgid "Image Width"
+msgstr ""
+
+#: framework/widgets/wd_emads.php:70
+msgid "Image Height"
+msgstr ""
+
+#: framework/widgets/wd_social_profiles.php:9
+msgid "Display Social Profiles"
+msgstr ""
+
+#: framework/widgets/wd_social_profiles.php:11
+msgid "WD - Social Profiles"
+msgstr ""
+
+#: framework/widgets/wd_social_profiles.php:44
+msgid "Become our fan"
+msgstr ""
+
+#: framework/widgets/wd_social_profiles.php:52
+msgid "Follow us"
+msgstr ""
+
+#: framework/widgets/wd_social_profiles.php:59
+#: framework/widgets/wd_social_profiles.php:77
+#: framework/widgets/wd_social_profiles.php:83
+msgid "Get updates"
+msgstr ""
+
+#: framework/widgets/wd_social_profiles.php:65
+#: framework/widgets/wd_social_profiles.php:71
+msgid "See Us"
+msgstr ""
+
+#: framework/widgets/wd_social_profiles.php:139
+msgid "Enter your title"
+msgstr ""
+
+#: framework/widgets/wd_social_profiles.php:144
+msgid "Show Rss"
+msgstr ""
+
+#: framework/widgets/wd_social_profiles.php:146
+#: framework/widgets/wd_social_profiles.php:157
+#: framework/widgets/wd_social_profiles.php:169
+#: framework/widgets/wd_social_profiles.php:181
+#: framework/widgets/wd_social_profiles.php:192
+#: framework/widgets/wd_social_profiles.php:204
+#: framework/widgets/wd_social_profiles.php:216
+msgid "Hide"
+msgstr ""
+
+#: framework/widgets/wd_social_profiles.php:147
+#: framework/widgets/wd_social_profiles.php:158
+#: framework/widgets/wd_social_profiles.php:170
+#: framework/widgets/wd_social_profiles.php:182
+#: framework/widgets/wd_social_profiles.php:193
+#: framework/widgets/wd_social_profiles.php:205
+#: framework/widgets/wd_social_profiles.php:217
+msgid "Show"
+msgstr ""
+
+#: framework/widgets/wd_social_profiles.php:150
+msgid "Enter your Rss"
+msgstr ""
+
+#: framework/widgets/wd_social_profiles.php:155
+msgid "Show Twitter"
+msgstr ""
+
+#: framework/widgets/wd_social_profiles.php:161
+msgid "Enter your Twitter ID"
+msgstr ""
+
+#: framework/widgets/wd_social_profiles.php:167
+msgid "Show Facebook"
+msgstr ""
+
+#: framework/widgets/wd_social_profiles.php:173
+msgid "Enter your Facebook ID"
+msgstr ""
+
+#: framework/widgets/wd_social_profiles.php:179
+msgid "Show Pinterest"
+msgstr ""
+
+#: framework/widgets/wd_social_profiles.php:185
+msgid "Enter your Pinterest ID"
+msgstr ""
+
+#: framework/widgets/wd_social_profiles.php:190
+msgid "Show Google"
+msgstr ""
+
+#: framework/widgets/wd_social_profiles.php:196
+msgid "Enter your Google+ ID"
+msgstr ""
+
+#: framework/widgets/wd_social_profiles.php:202
+msgid "Show youtube"
+msgstr ""
+
+#: framework/widgets/wd_social_profiles.php:208
+msgid "Youtube ID"
+msgstr ""
+
+#: framework/widgets/wd_social_profiles.php:214
+msgid "Show Instagram"
+msgstr ""
+
+#: framework/widgets/wd_social_profiles.php:220
+msgid "Instagram ID"
+msgstr ""
+
+#: framework/widgets/wd_special_post.php:6
+msgid "Recent post, most view"
+msgstr ""
+
+#: framework/widgets/wd_special_post.php:7
+msgid "WD - Special Post"
+msgstr ""
+
+#: framework/widgets/wd_special_post.php:120
+msgid "Post by"
+msgstr ""
+
+#: framework/widgets/wd_special_post.php:143
+#: framework/widgets/wd_special_post.php:144
+msgid "read more "
+msgstr ""
+
+#: framework/widgets/wd_special_post.php:234
+#: framework/widgets/wd_special_products.php:213
+msgid "Recent Post"
+msgstr ""
+
+#: framework/widgets/wd_special_post.php:235
+#: framework/widgets/wd_special_products.php:215
+msgid "Most View"
+msgstr ""
+
+#: framework/widgets/wd_special_post.php:238
+#: framework/widgets/wd_special_products.php:219
+msgid "Style 1"
+msgstr ""
+
+#: framework/widgets/wd_special_post.php:239
+#: framework/widgets/wd_special_products.php:220
+msgid "Style 2"
+msgstr ""
+
+#: framework/widgets/wd_special_post.php:245
+msgid "Number of posts to show"
+msgstr ""
+
+#: framework/widgets/wd_special_post.php:248
+#: framework/widgets/wd_special_products.php:226
+msgid "Data"
+msgstr ""
+
+#: framework/widgets/wd_special_post.php:256
+msgid "Show Style"
+msgstr ""
+
+#: framework/widgets/wd_special_post.php:273
+msgid "Show Date Post"
+msgstr ""
+
+#: framework/widgets/wd_special_post.php:277
+msgid "Show Post Meta"
+msgstr ""
+
+#: framework/widgets/wd_special_post.php:282
+#: framework/widgets/wd_special_products.php:259
+msgid "Slider mode"
+msgstr ""
+
+#: framework/widgets/wd_special_post.php:293
+#: framework/widgets/wd_special_products.php:270
+msgid "Slider - Number of posts per slide"
+msgstr ""
+
+#: framework/widgets/wd_special_post.php:296
+msgid "Link read more"
+msgstr ""
+
+#: framework/widgets/wd_special_products.php:6
+msgid "Special product"
+msgstr ""
+
+#: framework/widgets/wd_special_products.php:7
+msgid "WD - Special Products"
+msgstr ""
+
+#: framework/widgets/wd_special_products.php:214
+msgid "On Sale Product"
+msgstr ""
+
+#: framework/widgets/wd_special_products.php:216
+msgid "Featured Product"
+msgstr ""
+
+#: framework/widgets/wd_special_products.php:234
+msgid "Show Category Type:"
+msgstr ""
+
+#: framework/widgets/wd_special_products.php:246
+msgid "Show Image"
+msgstr ""
+
+#: framework/widgets/wd_special_products.php:250
+msgid "Show Product Info"
+msgstr ""
+
+#: framework/widgets/wd_special_products.php:254
+msgid "Show Rating"
+msgstr ""
+
+#: woocommerce/cart/cart.php:34 woocommerce/cart/cart.php:55
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:35 woocommerce/cart/cart.php:86
+#: woocommerce/single-product/add-to-cart/variable.php:103
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:36 woocommerce/cart/cart.php:92
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:37 woocommerce/cart/cart.php:109
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:136
+msgid "Update Cart"
+msgstr ""
+
+#: woocommerce/cart/cart.php:141
+msgid "Coupon:"
+msgstr ""
+
+#: woocommerce/cart/cart.php:141
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:141
+msgid "Apply Coupon"
+msgstr ""
+
+#: woocommerce/single-product/related.php:57
+msgid "Previous"
+msgstr ""
+
+#: woocommerce/single-product/related.php:58
+msgid "Next"
+msgstr ""
+
+#: framework/includes/metaboxes/wd_custom_page_layout.php:5
+msgid "Select Header"
+msgstr ""
+
+#: framework/includes/metaboxes/wd_custom_page_layout.php:6
+msgid "Select Footer"
+msgstr ""
+
+#: framework/includes/metaboxes/wd_custom_page_layout.php:29
+msgid "Custom Header: "
+msgstr ""
+
+#: framework/includes/metaboxes/wd_custom_page_layout.php:30
+msgid "Custom Header"
+msgstr ""
+
+#: framework/includes/metaboxes/wd_custom_page_layout.php:39
+msgid "Custom Footer: "
+msgstr ""
+
+#: framework/includes/metaboxes/wd_custom_page_layout.php:40
+msgid "Custom Footer"
+msgstr ""
+
+#: framework/includes/metaboxes/wd_custom_page_layout.php:48
+#: framework/includes/metaboxes/wd_custom_post_layout.php:187
+#: framework/includes/metaboxes/wd_custom_product_layout.php:19
+msgid "Custom Layout"
+msgstr ""
+
+#: framework/includes/metaboxes/wd_custom_page_layout.php:51
+#: framework/includes/metaboxes/wd_custom_post_layout.php:190
+#: framework/includes/metaboxes/wd_custom_product_layout.php:22
+msgid "Page Layout"
+msgstr ""
+
+#: framework/includes/metaboxes/wd_custom_page_layout.php:55
+#: framework/includes/metaboxes/wd_custom_post_layout.php:194
+#: framework/includes/metaboxes/wd_custom_product_layout.php:26
+msgid "Default"
+msgstr ""
+
+#: framework/includes/metaboxes/wd_custom_page_layout.php:56
+#: framework/includes/metaboxes/wd_custom_post_layout.php:195
+#: framework/includes/metaboxes/wd_custom_product_layout.php:27
+msgid "Fullwidth"
+msgstr ""
+
+#: framework/includes/metaboxes/wd_custom_page_layout.php:57
+#: framework/includes/metaboxes/wd_custom_post_layout.php:196
+#: framework/includes/metaboxes/wd_custom_product_layout.php:28
+msgid "Right Sidebar"
+msgstr ""
+
+#: framework/includes/metaboxes/wd_custom_page_layout.php:58
+#: framework/includes/metaboxes/wd_custom_post_layout.php:197
+#: framework/includes/metaboxes/wd_custom_product_layout.php:29
+msgid "Left Sidebar"
+msgstr ""
+
+#: framework/includes/metaboxes/wd_custom_page_layout.php:59
+#: framework/includes/metaboxes/wd_custom_post_layout.php:198
+#: framework/includes/metaboxes/wd_custom_product_layout.php:30
+msgid "Left & Right Sidebar"
+msgstr ""
+
+#: framework/includes/metaboxes/wd_custom_post_layout.php:44
+msgid "Extra Feature Post"
+msgstr ""
+
+#: framework/includes/metaboxes/wd_custom_post_layout.php:47
+msgid "Media type"
+msgstr ""
+
+#: framework/includes/metaboxes/wd_custom_post_layout.php:57
+msgid "SoundCloud link"
+msgstr ""
+
+#: framework/includes/metaboxes/wd_custom_post_layout.php:59
+msgid ""
+"Input Souncloud URL. This audio shows on the single post instead of the post "
+"thumbnail"
+msgstr ""
+
+#: framework/includes/metaboxes/wd_custom_post_layout.php:64
+msgid "Mp3 URL"
+msgstr ""
+
+#: framework/includes/metaboxes/wd_custom_post_layout.php:66
+msgid ""
+"Input mp3,wag,ogg URL. This audio shows on the single post instead of the "
+"post thumbnail"
+msgstr ""
+
+#: framework/includes/metaboxes/wd_custom_post_layout.php:72
+msgid "Video URL"
+msgstr ""
+
+#: framework/includes/metaboxes/wd_custom_post_layout.php:74
+msgid ""
+"Input Youtube, Vimeo or Dailymotion video URL. This video shows on the "
+"single post instead of the post thumbnail"
+msgstr ""
+
+#: framework/includes/metaboxes/wd_custom_post_layout.php:180
+msgid "List Images Width"
+msgstr ""
+
+#: framework/includes/metaboxes/wd_custom_post_layout.php:182
+msgid ""
+"Example: 2_3,1_3,1_3,1_3. Two-thirds width of content for first image, One-"
+"third width of content for second image. Similar, One-third for third and "
+"fourth image. Width of images are separated by \",\" comma"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_blog.php:8
+msgid "WPDANCE - Blog Config"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_blog.php:9
+#: framework/wpdance/customize/wd_customize_product.php:9
+msgid "Theme Sidebar Layout"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_blog.php:13
+#: framework/wpdance/customize/wd_customize_blog.php:14
+msgid "Genneral Blog Config"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_blog.php:19
+msgid "Page Default"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_blog.php:20
+msgid "Custom page blog page"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_blog.php:25
+msgid "Blog Default"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_blog.php:26
+msgid "Custom default blog page"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_blog.php:31
+msgid "Archive Blog"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_blog.php:32
+msgid "Custom archive blog page"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_blog.php:37
+msgid "Single Blog"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_blog.php:38
+msgid "Custom single blog page"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_blog.php:51
+msgid "Show Title Blog"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_blog.php:52
+msgid "Show/Hile title blog"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_blog.php:67
+msgid "Show Thumbnail Blog"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_blog.php:68
+msgid "Show/Hile thumbnail blog"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_blog.php:83
+msgid "Show Date Blog"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_blog.php:84
+msgid "Show/Hile date blog"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_blog.php:99
+msgid "Show Author Blog"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_blog.php:100
+msgid "Show/Hile author blog"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_blog.php:115
+msgid "Show Category Blog"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_blog.php:116
+msgid "Show/Hile category blog"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_blog.php:131
+msgid "Show Excerpt Blog"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_blog.php:132
+msgid "Show/Hile excerpt blog"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_blog.php:147
+msgid "Show Read More Blog"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_blog.php:148
+msgid "Show/Hile read more blog"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_blog.php:164
+msgid "Number Excerpt Word"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_blog.php:189
+#: framework/wpdance/customize/wd_customize_blog.php:231
+#: framework/wpdance/customize/wd_customize_blog.php:272
+#: framework/wpdance/customize/wd_customize_blog.php:313
+#: framework/wpdance/customize/wd_customize_footer.php:22
+#: framework/wpdance/customize/wd_customize_header.php:34
+#: framework/wpdance/customize/wd_customize_product.php:154
+#: framework/wpdance/customize/wd_customize_product.php:241
+#: framework/wpdance/customize/wd_customize_styling_option.php:43
+msgid "Select the layout"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_font.php:8
+msgid "WPDANCE - Font Setting"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_font.php:9
+msgid "Custom font in website."
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_footer.php:8
+msgid "WPDANCE - Footer"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_footer.php:29
+#, php-format
+msgid "Copyright %s. All rights reserved."
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_footer.php:34
+msgid "Footer copyright text"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_footer.php:38
+msgid ""
+"Copyright or other text to be displayed in the site footer. HTML allowed."
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_header.php:9
+msgid "WPDANCE - Header"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_header.php:10
+msgid "Custom header site."
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_header.php:23
+msgid "Logo"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_product.php:8
+msgid "WPDANCE - Product Config"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_product.php:13
+#: framework/wpdance/customize/wd_customize_product.php:14
+msgid "Genneral Product Config"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_product.php:19
+msgid "Archive Product"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_product.php:20
+msgid "Custom archive product page"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_product.php:25
+msgid "Single Product"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_product.php:26
+msgid "Custom single product page"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_product.php:31
+msgid "Page Cart"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_product.php:32
+msgid "Custom page cart product"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_product.php:56
+msgid "Catalog Mod"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_product.php:57
+msgid ""
+"Enable/Disable Catalog Mod(Hide All \"Add To Cart\" button on your site)"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_product.php:73
+msgid "Show Title Product"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_product.php:74
+msgid "Show/Hile title product"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_product.php:89
+msgid "Show Rating Product"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_product.php:90
+msgid "Show/Hile rating product"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_product.php:105
+msgid "Show Price Product"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_product.php:106
+msgid "Show/Hile price product"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_product.php:121
+msgid "Show Meta Product"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_product.php:122
+msgid "Show/Hile sale/featured product"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_product.php:137
+msgid "Select Style Hover Product"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_product.php:194
+msgid "Select the position"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_product.php:209
+msgid "Show Recent Product"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_product.php:224
+msgid "Full Content Detail"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_product.php:228
+msgid "If you want full width detail, you must select layout the full width"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_product.php:282
+msgid "Number Product Of Page"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_product.php:293
+msgid "Columns Product"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_product.php:298
+msgid "2 Columns"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_product.php:299
+msgid "3 Columns"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_product.php:300
+msgid "4 Columns"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_product.php:311
+msgid "Shortcode Cart"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_styling_option.php:8
+msgid "WPDANCE - Color Setting"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_styling_option.php:9
+msgid "Custom body, color in website."
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_styling_option.php:13
+msgid "Primary Color All Theme"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_styling_option.php:14
+msgid "Custom primary color all theme"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_styling_option.php:19
+msgid "Custom General Color"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_styling_option.php:20
+msgid "Custom general color"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_theme_option.php:8
+msgid "WPDANCE - Theme Option"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_theme_option.php:9
+msgid "Custom theme."
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_theme_option.php:13
+msgid "Breadcrumb Config"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_theme_option.php:19
+msgid "Page 404 Config"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_theme_option.php:25
+#: framework/wpdance/customize/wd_customize_theme_option.php:26
+#: framework/wpdance/customize/wd_customize_theme_option.php:101
+msgid "Scroll Button"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_theme_option.php:39
+msgid "Select the layout breadcrumb"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_theme_option.php:53
+msgid "Banner Breadcrumb"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_theme_option.php:65
+msgid "Background Image Or Color"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_theme_option.php:71
+msgid "Background Color"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_theme_option.php:80
+msgid "Select Color Background"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_theme_option.php:90
+msgid "Select Background Image"
+msgstr ""
+
+#: framework/wpdance/customize/wd_customize_theme_option.php:102
+msgid "Enable/Disable scroll button in website"
+msgstr ""
+
+#: framework/wpdance/footers/wd_footer_default.php:4
+msgid "Copyright CodeSpot. All rights reserved."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/simple.php:48
+msgid "QUANTITY: "
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/simple.php:64
+#: woocommerce/single-product/add-to-cart/variable.php:118
+#: woocommerce/single-product/add-to-cart/variable.php:121
+msgid "Add to cart"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:38
+msgid "Please select the required options to display prices"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:60
+msgid "Choose an option"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:96
+msgid "Clear selection"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:133
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#. Name of the theme
+msgid "WPDANCE"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"our default theme lets you create a strongest website with many features."
+msgstr ""
+
+#. URI of the theme
+msgid "http://wpdance.com"
+msgstr ""
+
+#. Author of the theme
+msgid "WPDANCE TEAM"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://wpdance.com/author/"
+msgstr ""

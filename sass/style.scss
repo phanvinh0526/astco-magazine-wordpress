@@ -1,0 +1,98 @@
+/*
+Theme Name: WPDANCE
+Theme URI: http://wpdance.com
+Author:  WPDANCE TEAM
+Author URI: http://wpdance.com/author/
+Description: our default theme lets you create a strongest website with many features.
+Version: 1.0.0
+Text Domain: wpdance
+Domain Path: /languages/
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, two-columns, right-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+/**
+ * Table of Contents
+ *
+ * 1.0 - Normalize
+ * 2.0 - Genericons
+ * 3.0 - Typography
+ * 4.0 - Elements
+ * 5.0 - Forms
+ * 6.0 - Navigation
+ *   6.1 - Links
+ *   6.2 - Menus
+ * 7.0 - Accessibility
+ * 8.0 - Alignments
+ * 9.0 - Clearings
+ * 10.0 - Widgets
+ * 11.0 - Content
+ *    11.1 - Header
+ *    11.2 - Posts and pages
+ *    11.3 - Post Formats
+ *    11.4 - Comments
+ *    11.5 - Sidebar
+ *    11.6 - Footer
+ * 12.0 - Media
+ *    12.1 - Captions
+ *    12.2 - Galleries
+ * 13.0 - Multisite
+ * 14.0 - Media Queries
+ *    14.1 - >= 710px
+ *    14.2 - >= 783px
+ *    14.3 - >= 910px
+ *    14.4 - >= 985px
+ *    14.5 - >= 1200px
+ * 15.0 - Print
+ */
+/**
+ * 1.0 - Normalize
+ *
+ * Normalizing styles have been helped along thanks to the fine work of
+ * Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+ */
+ 
+@import 'variables';
+@import 'mixins'; 
+
+/*Layout*/
+@import "layout/header";
+@import "layout/footer";
+
+@import "layout/menu";
+@import "layout/blog";
+@import "layout/sidebar";
+@import "layout/shop";
+@import "layout/cart";
+@import "layout/pages";
+@import "layout/account";
+@import "layout/product_detail";
+@import "layout/responsive";
+
+/*Core*/
+@import "core/button";
+@import "core/effects";
+@import "core/reset";
+
+
+
+@import "core/base";
+
+@import "layout/rtl";
+body {
+  background: $main_bg_color;
+  font:$general_font;
+  color:$main_text_color;
+}
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  background: $main_bg_color;
+}
+
+/*# sourceMappingURL=style.scss.map */

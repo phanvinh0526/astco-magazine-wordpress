@@ -1,0 +1,154 @@
+
+
+/**
+ * 8.0 Media Queries
+ * ----------------------------------------------------------------------------
+ */
+
+/* Does the same thing as <meta name="viewport" content="width=device-width">,
+ * but in the future W3C standard way. -ms- prefix is required for IE10+ to
+ * render responsive styling in Windows 8 "snapped" views; IE10+ does not honor
+ * the meta tag. See https://core.trac.wordpress.org/ticket/25888.
+ */
+@-ms-viewport {
+	width: device-width;
+}
+@viewport {
+	width: device-width;
+}
+
+@media (max-width: 1599px) {
+
+}
+
+@media (min-width: 1069px) {
+
+.coming-soon .content-coming > div > .wpb_wrapper{ width:60%;}
+	
+}
+
+@media (max-width: 980px) {
+	.product-bigger-image .product.list .wd_content_list{ padding:0 $var_space}
+}
+
+/* Collapse oversized image and pulled images after iPad breakpoint. */
+@media (max-width: 767px) {
+	
+	body .site-header{
+		position:relative;
+	}
+	.home,.home-black,.home-3{
+		.site-header{ margin-bottom:0;}
+	}
+	/*=404==================================================*/
+	body.error404 .site-content{ background:none;
+		.error-404{ width:100%;}
+	}
+	
+	/*=comming-soon==================================================*/	
+	.coming-soon{
+		.wpb_text_column p{
+			font-size:250%; line-height:40px;
+			&:first-child{
+				font-size:200%;
+			}
+		}
+		
+		.ts-countdown-parent.style-1  .ts-countdown{ 
+			.col { margin:0 $var_space/4;
+				.ce-days,.ce-hours,.ce-minutes,.ce-seconds{ 
+					min-width:60px; 
+					span{ font-size:200%; }
+				}
+				.ce-days-label,.ce-hours-label,.ce-minutes-label,.ce-seconds-label{font-size:80%;}
+			}
+		}/*.ts-countdown*/
+		
+		.content-coming > div{ 
+			> .wpb_wrapper{
+				&:before{
+					top:60px;
+					bottom:178px;
+				}
+			}
+		}
+	}/*.coming-soon*/
+	
+	.small-width .wpb_wrapper{ width:100%;}
+		
+	.product-bigger-image .product.list{
+		> a,.wd_content_list{ display:inline-block; width:100%;}
+		.wd_content_list{ padding:$var_space;}
+	}/*.product-bigger-image*/
+	
+	/*.woocommerce .products.grid div.product{ width:50%;}*/
+	
+	/*mobile menu*/
+
+	.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-13, .col-sm-14, .col-sm-15, .col-sm-16, .col-sm-17, .col-sm-18, .col-sm-19, .col-sm-20, .col-sm-21, .col-sm-22, .col-sm-23, .col-sm-24,.woocommerce .products.grid > .product{ width:100%; }
+	
+	/*=BlogSmallImage=================================*/
+	.content_blog .small_image{
+		> div{ padding:0;}
+		.item_header{ width:100%; margin:0 0 $var_space!important;
+			
+		}
+		.item_content{ overflow:visible; clear:left; padding: 0 ($var_space + 10px) ($var_space + 10px);}
+		.conten_item_quote{ padding:($var_space + 10px);}
+	}
+
+	
+}/*(max-width: 767px)*/
+
+@media (max-width: 643px) {
+	.woocommerce div.product #reviews{
+		#comments,.wd-comment-form{
+			width:100%; padding-right:0;
+		}
+		.wd-comment-form{ padding-top:$var_space;}
+	}
+}/*max-width: 643px*/
+
+/* Mobile devices */
+@media (max-width: 360px) {
+	.ts-testimonials-slider-container .ts-testimonial-main.style3 .sign{ top:60px;}
+	/*.woocommerce .products.grid div.product{ width:100%;}*/
+	.ts-testimonials-slider-container .ts-testimonial-main.style3 .photo, .entry-content .ts-team2 > div:first-child{ margin-right:$var_space;}
+	.ts-testimonials-slider-container .ts-testimonial-main.style3 .content, .entry-content .ts-team2 div.ts-team2-content{
+		padding-top:$var_space/2!important;
+	}
+	.ts-testimonials-slider-container .ts-testimonial-main.style3 .sign{ margin-left:$var_space;}
+	
+	/* home-3**/
+	.home-3 .content_blog .owl-wrapper-outer {
+		.item_thumbnail{
+			margin-right:0;
+			width:100%;
+		}
+		.item_content{ clear:left; padding:$var_space;}
+
+	}
+}
+
+/*=768 - 1024==================================================*/
+
+	@media (min-width: 768px) and (max-width: 1024px){
+
+		nav.ubermenu-horizontal .ubermenu-nav li.ubermenu-item-level-0 > a{ /*display:inline;*/}
+		
+		.wd-header-widget{
+			.wd-header-widget-left{min-width: 100px;
+			}
+			
+			.wd-header-widget-right{ width:320px;} 
+		}
+	}/*768 and 1024*/
+
+@media (min-width: 768px) and (max-width:990px)
+{
+	.wd-header-widget{
+		.wd-header-widget-left{
+			.widget_search{ width:100%; }
+		}
+	}
+}

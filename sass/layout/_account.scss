@@ -1,0 +1,140 @@
+/*=My Account==================================================*/
+html .woocommerce-account{
+	.woocommerce-MyAccount-navigation{
+		margin-bottom:30px;
+		width:25%;
+		ul{
+			padding:0;
+			margin:0;
+			list-style:none;
+			li{
+				a{
+					font:$general_font;
+					@include changeColor($main_text_color, $colorPrimary);
+					text-transform:capitalize;
+				}		
+				&+li{
+					border-top:1px solid #dee5e9;
+					padding-top: 15px;
+					margin-top: 10px;
+				}
+			}
+		}
+	}
+	.woocommerce-MyAccount-content{
+		width:75%;
+		padding-left:30px;
+	}
+}
+/*====================== WISHLIST ==================*/
+html .woocommerce{
+	table.wishlist_table{
+		border:1px solid $main_line_color;
+		margin:0 0 30px;
+		border-radius:0;
+		font-size:100%;
+		border-collapse: collapse;
+		@media only screen and (max-width: 767px){
+			border:none;
+		}	
+		thead{
+			@media only screen and (max-width: 767px){
+				display:none;
+			}	
+			tr{
+				th{
+					background:$colorPrimary;
+					font:$h5_font;
+					text-transform:uppercase;
+					color:#fff;
+					text-align:center;
+					padding:12px;
+					border:1px solid $main_line_color;
+				}
+			}
+		}
+		tbody{
+			tr{
+				@media only screen and (max-width: 767px){
+					display:block;
+				}
+				td{
+					@media only screen and (max-width: 767px){
+						display:block;
+						text-align:right;
+						width:100%!important;
+						border: none;
+						border-bottom: 1px solid $main_line_color;
+						&:before{
+							content: attr(data-title) " ";
+							color:$main_title_color;
+							float: left;
+						}
+					}
+					padding:30px;
+					border:1px solid $main_line_color;
+					width:20%;
+					&.product-thumbnail{
+						width:15%;
+						a{
+							max-width:100%;
+							img{width:auto;}
+						}
+					}
+					&.product-name{
+						a{
+							text-transform:uppercase;
+							@include changeColor($main_title_color, $colorPrimary);
+						}
+						dl.variation{
+							dt{font-weight:400;}
+							dd{margin-bottom:5px;}
+						}
+					}
+					&.product-price, &.product-subtotal{
+						.amount{
+							font-family: 'HelvetiCaneueBlod';
+							color:$main_title_color;
+						}
+					}
+					&.product-stock-status{
+						.wishlist-in-stock{
+							display:inline-block;
+							text-transform:uppercase;
+							padding:5px 25px;
+							border-radius:5px;
+							background:#ff0000;
+							color:#fff;
+						}
+					}
+					&.product-remove{
+						width:5%;
+						a.remove{
+							font-size:0;
+							height: auto;
+							width: auto;
+							background: none;
+							&:before{
+								@include font-awesome(\f057, 20px);
+								color:$main_title_color;
+							}
+						}
+					}
+					&.product-add-to-cart{
+						a.button{							
+							font-family: 'HelvetiCaneueBlod';
+							color:$btn1_text_color;
+							background:$btn1_bg_color;
+							padding:11px 18px;
+							margin-bottom:0;
+							&:hover{
+								background:$btn2_bg_color;
+								color:$btn2_text_color;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

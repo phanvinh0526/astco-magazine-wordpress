@@ -1,0 +1,103 @@
+/*===============================================================home1==========*/
+.home .site-content, .home-default .site-content{ padding-bottom:0;}
+
+.main-slideshow.wpb_content_element{ margin-bottom:0;}
+.entry-content .line-title-left .heading-title-block h2{
+	background-position:0 bottom;
+	text-align:left;
+}
+
+.small-width{
+	.wpb_wrapper{
+		width:60%;
+		margin:0 auto;
+	}
+}
+
+.product-bigger-image .product.list{ overflow:hidden;@include wp_table;
+	> a:hover{@include opacity(0.8) ;}
+	.wd-item-header{
+		position: relative;
+		overflow:hidden;
+		&:before {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			z-index: 2;
+			display: block;
+			content: '';
+			width: 0;
+			height: 0;
+			background: rgba(255,255,255,.2);
+			border-radius: 100%;
+			-webkit-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
+			opacity: 0;
+		}
+		&:hover:before {
+			-webkit-animation: circle .75s;
+			animation: circle .75s;
+		}
+	}
+	.wd_content_list{ @include wp_tablecell; width:50%; overflow:hidden; padding:0 $var_space*4;
+		> a, > span,> div{}
+		> a{
+			font:$h3_font; text-transform:uppercase;
+			@include changeColor ($main_text_color, $main_text4_color);
+		}
+		span.price{ margin-bottom:($var_space + 10px); display:inline-block;
+			font:$title_font;color:$main_text3_color;
+			del span{ font-size:150%; color:lighten($main_text3_color,20%)}
+			> .amount,ins span{ font-size:200%; color:$main_text3_color}
+		}
+		.wd-short-description{ @include cut_height(110px); }
+		.wd_add_to_cart_list{
+			a.button{
+				@include button_addtocart;
+				border-bottom:2px solid $btn1_line_color;
+				color: $btn1_text_color; 
+				margin-top:$var_space*3;
+			}
+			a.added_to_cart{margin:($var_space*2 + 10px) $var_space/2 0 0 ;}
+		}
+	}
+}/*.product-bigger-image*/
+
+/*TeamStyle&testimonials==============================================*/
+.ts-testimonials-slider-container{
+	.ts-testimonial-main.style3{
+		background-color:$main_bg2_color; width:100%!important; position:relative;
+		.photo{@extend %TS-photo;}
+		.content{ @extend %TS-content; @include cut_height(48px);
+			.laquo,.raquo{ display:none;}
+		}
+		.sign{
+			position:absolute; left:40%; margin-left:$var_space*3; top:220px; text-align:left; float:left;width:auto;
+			.author{font:$h4_font; padding-bottom:$var_space; text-transform:uppercase; color:$main_text3_color;}
+			.metadata{margin:(-($var_space/2)) 0 ($var_space + 10px)!important;font:$title_font; font-size:14px;text-transform:capitalize;}
+		}/*.sign*/
+	}
+}/*.ts-testimonials-slider-container*/
+
+/*SlideShow==============================================*/
+.main-slideshow{
+	.tparrows{
+		width:33px;
+		height:50px;
+		&:before{
+			content:none!important;
+		}
+	}
+	.tp-leftarrow.tparrows{
+		background:url(images/left_slideshow.png) no-repeat;
+		&:hover{
+			@include opacity(0.5);
+		}
+	}
+	.tp-rightarrow.tparrows{
+		background:url(images/right_slideshow.png) no-repeat;
+		&:hover{
+			@include opacity(0.5);
+		}
+	}
+}

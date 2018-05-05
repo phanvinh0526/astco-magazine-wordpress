@@ -1,0 +1,46 @@
+#wd_advertise_file label,
+#id_magazine_meta label{
+	display: inline-block;
+	width: 190px;
+}
+#wd_advertise_file input[type="text"],#wd_advertise_file select{
+	width: 60%;
+}
+#id_magazine_meta input[type="text"]{
+	width: 40%;
+}
+#wd_advertise_file .area-content{
+	margin-bottom: 10px;
+}
+#wd_advertise_file .wd-note ul li span{
+	display: inline-block;
+	width: 150px;
+}
+#wd_advertise_file .wd-note ul{
+	margin-left: 30px;
+}
+#wd_advertise_file .wd-note ul li{
+	list-style-type:disc;
+}
+#wp_cp_custom_post_layout label{
+	width: 130px;
+}
+#wp_cp_custom_post_layout label{
+	padding-bottom: 10px;
+}
+#wp_cp_custom_post_layout input[type="text"],#wp_cp_custom_post_layout select{
+	width: 100%;
+}
+#wd-custom-page-id select,#pageparentdiv select, #pageparentdiv input[type="text"]{
+	width: 100%;
+}
+#wd-business-meta label{
+	display: inline-block;
+	width: 200px;
+}
+#wd-business-meta select, #wd-business-meta input[type="text"]{
+	width: 60%;
+}
+#wd-business-meta h4{
+	color: #0085ba;	
+}

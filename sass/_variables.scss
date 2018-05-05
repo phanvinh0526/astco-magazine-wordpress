@@ -1,0 +1,99 @@
+/*--font face--*/
+@font-face {
+	font-family: 'HelvetiCaneue';
+	src: url('assets/fonts/helvetica-neue-regular.ttf');
+}
+@font-face {
+	font-family: 'HelvetiCaneueMedium';
+	src: url('assets/fonts/helvetica-neue-medium.ttf');
+}
+@font-face {
+	font-family: 'HelvetiCaneueBlod';
+	src: url('assets/fonts/helvetica-neue-bold.ttf');
+}
+@font-face {
+	font-family: 'HelvetiCaneueCondensedBlod';
+	src: url('assets/fonts/helvetica-neue-condensed-bold.ttf');
+}
+
+/******Class Padding********/
+	$var_space: 20px!default;//($var_space - 5px) ($var_space + 10px)
+	$rounded_corner:0;
+
+	$general_font:400 14px/1.75 'HelvetiCaneue', Helvetica, Arial, sans-serif !default;
+	
+	$h1_font:400 30px/1.15 'HelvetiCaneueBlod', Helvetica, Arial, sans-serif !default;
+	$h2_font:400 24px/1.75 'HelvetiCaneue', Helvetica, Arial, sans-serif !default;
+	$h3_font:500 20px/1.75 'HelvetiCaneueBlod', Helvetica, Arial, sans-serif !default;
+	$h4_font:500 16px/1.75 'HelvetiCaneueBlod', Helvetica, Arial, sans-serif !default;
+	$h5_font:400 15px/1.75 'HelvetiCaneueBlod', Helvetica, Arial, sans-serif !default;
+	$h6_font:400 11px/1.35 'HelvetiCaneueBlod',Helvetica, Arial, sans-serif !default ;
+
+	$title_font:italic 500 20px/1.35 'Playfair Display',Helvetica, Arial, sans-serif !default ;
+	$header_top_font: 400 13px/1.35 'Open Sans', sans-serif !default;
+
+	$colorPrimary: #3478e3 !default;	
+/*=header==============*/
+	$header_bg_color1: #fff !default;
+	$header_bg_color2: #23282d !default;
+	$header_bg_color3: #9e0b0f !default;
+	
+	$header_bg_cart_color: #fff !default;
+	
+	$header_text_color1: #3f3f3f !default; //fw
+	$header_text_color2: #fff !default; //fw
+
+/*=top menu==============*/
+	$dropmenu_bg_color: #ffffff !default;
+	$menu_text_color: #3f3f3f !default; //fw
+	$menu_hover_text_color: #3478e3 !default;
+	$dropmenu_text_color:#363636 !default;
+
+	$menu_font:400 15px/1.35 'HelvetiCaneue', Helvetica, Arial, sans-serif !default;
+	$dropmenu_font:500 14px/1.55 Montserrat, Helvetica, Arial, sans-serif!default;
+	
+/*=body==============*/
+	$main_bg_color: #ffffff !default;
+	$main_text_color: #7f7e7e !default; //fw	
+	$main_title_color: #3f3f3f !default;// h1 title fw
+	$main_bg3_color: #3f3f3f !default;//price fw
+	$main_name_color: #3f3f3f !default;//name fw
+	$main_text2_color: #3f3f3f !default;// input text fw
+	$main_line_color: #dee2e5 !default;//line input,textarea fw
+
+
+//000--> darken($main_title_color,20%)
+
+/*=footer==============*/
+	$footer_bg_color: #23282d !default; //fw
+	$footer_bg2_color: #1a1e22 !default;//fw
+	$footer_bg3_color: #f9f9f9 !default;//fw
+	
+	$footer_line_color: #353d44 !default;//fw
+	
+	$footer_text_color: #fff !default;
+	$footer_text2_color: #9e9e9e !default; 
+	/*---- footer 08 ----*/
+	$footer_text3_color: #3f3f3f !default; 
+	$footer_text4_color: #a3a3a3 !default; 
+
+/*=button==============*/
+	$btn1_font:400 14px/1.35 'HelvetiCaneue', Helvetica, Arial, sans-serif !default;
+	$btn2_font:400 14px/1.35 'HelvetiCaneue', Helvetica, Arial, sans-serif !default;
+	$btn4_font:600 15px/1.35 Montserrat, Helvetica, Arial, sans-serif !default;
+	
+	$btn1_bg_color: #dee2e5 !default;//btn add to cart
+	$btn1_text_color: #3f3f3f !default;
+
+	$btn2_bg_color: #3478e3 !default;//btn add to cart(detail) fw
+	$btn2_text_color: #fff !default;
+
+	$btn4_bg_color: #23282d !default;// 
+
+
+h1, h1.tp-caption{font:$h1_font; color:$main_title_color;}
+h2, h2.tp-caption{font:$h2_font; color:$main_title_color; margin:0 0 10px;}
+h3, h3.tp-caption{font:$h3_font; color:$main_title_color;}
+h4, h4.tp-caption{font:$h4_font; color:$main_title_color;}
+h5, h5.tp-caption{font:$h5_font; color:$main_title_color;}
+h6, h6.tp-caption{font:$h6_font; color:$main_title_color;}

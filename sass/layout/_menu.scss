@@ -1,0 +1,254 @@
+%menu_text_level_0{
+	font:$menu_font;
+	@include changeColor($menu_text_color, $colorPrimary);
+	@include transition;
+	outline:none;
+	box-shadow:none; 
+	padding:0;
+}
+%sub-menu-dropdown{
+	@extend %dropdown;
+	font:$dropmenu_font;
+	background-color:$dropmenu_bg_color;
+	@include box-shadow(0 -2px 10px #a3a3a3);
+	color:$dropmenu_text_color;
+	border-color:$dropmenu_bg_color;
+	padding:0;
+	margin:0;
+	max-width:300px;
+	list-style:none;
+	padding:30px 0;
+	top:100%;	
+	&:before{
+		content:'';
+		position:absolute;
+		left:0;
+		bottom:-1px;
+		background:$colorPrimary;
+		height:3px;
+		width:100%;
+		z-index:100;
+	}
+}
+/*==========menu horizontal==========*/
+nav.ubermenu-horizontal{
+	margin:0 auto; 
+	text-align:center; 
+	.ubermenu-nav{
+		display:inline-block!important;
+		@media screen and (max-width: 959px){
+			display:block!important;
+		}
+		@media only screen and (max-width: 767px){
+			display:block!important;
+		}
+		li.ubermenu-item-level-0{
+			float:none; 
+			display:inline-block!important;
+			> a{ 
+				@extend %menu_text_level_0;
+				&.ubermenu-target:after{padding:0; top:0; margin-top:3px;}
+				span{ 
+					padding:0 30px 15px; 
+					@include transition;
+				}
+			}
+			&:hover{
+				>a{
+					color:$menu_hover_text_color;
+				}
+			}
+			> ul.ubermenu-submenu{
+				font:$dropmenu_font;
+				background-color:$dropmenu_bg_color;
+				@include box-shadow(0 -2px 10px #a3a3a3);
+				color:$dropmenu_text_color;
+				border-color:$dropmenu_bg_color;
+				padding:0;
+				margin:0;
+				min-width:220px;
+				&:before{
+					content:'';
+					position:absolute;
+					left:0;
+					bottom:0;
+					background:$colorPrimary;
+					height:3px;
+					width:100%;
+					z-index:100;
+				}
+				.ubermenu-column{
+					&.ubermenu-tab a{
+						padding:5px 15px;
+						@media screen and (max-width: 959px){
+							border-bottom-color: $main_line_color;
+							padding:15px 20px;
+						}
+						@media only screen and (max-width: 767px){
+							border-bottom-color: $main_line_color;
+							padding:15px 20px;
+						}
+					}
+					
+					&.ubermenu-item-header{
+						>a.ubermenu-target{
+							span.ubermenu-target-title{
+								font:$general_font;
+								font-family: 'HelvetiCaneueBlod';
+								font-weight:400;
+								@include changeColor($main_title_color, $colorPrimary);
+								text-transform:uppercase;
+							}
+						}
+						&.ubermenu-item-object-post > a.ubermenu-target span.ubermenu-target-title,
+						&.ubermenu-item-object-product > a.ubermenu-target span.ubermenu-target-title{
+							font:$general_font;
+							text-transform:none;
+							@include changeColor($main_title_color, $colorPrimary);
+							padding:0;
+						}
+					}
+					&.ubermenu-item-object-ubermenu-custom{
+						background:#f7f7f7;
+						line-height:24px;
+						padding: 25px 30px;
+						img{margin-bottom:20px;}
+						a.button{
+							background:none;
+							padding:0;
+							color:$colorPrimary;
+							text-transform:none;
+							margin-top: 14px;
+							@include changeColor($colorPrimary, $main_title_color);
+							&:before{
+								@include font-awesome(\f138,14px);
+								margin-right:5px;
+							}
+						}	
+					}
+					&.ubermenu-item-object-custom{
+						padding:15px 0 15px 30px;
+						.ubermenu-submenu{
+							li.ubermenu-item{
+								margin-bottom:10px;
+							}
+						}
+					}
+				}
+				&.ubermenu-submenu-align-left_edge_item{
+					padding:15px 30px;
+					li.ubermenu-item{
+						a.ubermenu-target{padding:10px 0;}
+						&+li.ubermenu-item{
+							border-top:1px solid $main_line_color;
+						}
+					}
+				}
+				&.ubermenu-submenu-align-full_width{
+					padding-top:0;
+					padding-bottom:0;
+				}
+				li{
+					a{
+						@include changeColor($main_text_color, $colorPrimary);
+					}
+				}	
+				.ubermenu-submenu-type-stack{
+					padding:0;
+					>.ubermenu-item-normal>.ubermenu-target{
+						padding-top:6px;
+						padding-bottom:6px; 
+					}
+				}
+			}/*ul*/
+		}/*li*/
+	}/*.ubermenu-nav*/
+	.ubermenu-tab-layout-left>.ubermenu-tabs-group{
+		border:none;
+		padding:27px 15px;
+		background:#f7f7f7;
+		li.ubermenu-item{
+			margin-bottom:12px;
+			.ubermenu-target-description{display:none;}
+			.ubermenu-tab-content-panel{
+				padding:40px 20px;
+				img.ubermenu-image{margin-bottom:20px;}
+			}
+		}
+	}
+}/*nav.ubermenu-skin-wpdancebootstrap-style01*/
+@media only screen and (max-width: 767px){
+	.ubermenu-responsive-default.ubermenu-responsive .ubermenu-tabs>.ubermenu-tabs-group>.ubermenu-tab>.ubermenu-tab-content-panel{
+		background:#f9f9f9;
+		border-color:transparent;
+	}
+}
+.wd-header-menu{
+	.nav >ul, ul.nav{
+		padding:0;
+		margin:0;
+		list-style:none;
+		>li.page_item, >li.menu-item{
+			display:inline-block;
+			>a{					
+				@extend %menu_text_level_0;
+				padding:0 25px 47px; 
+				display:inline-block;
+			}
+			&.page_item_has_children, &.menu-item-has-children{
+				>a{
+					&:after{
+						@include font-awesome(\f107, 14px);
+						margin-left: 10px;
+						vertical-align: 0px;
+					}
+				}
+			}
+			ul.children, ul.sub-menu{
+				@extend %sub-menu-dropdown;
+				>li{
+					padding:0 30px;
+					position:relative;
+					a{
+						padding:10px 0;
+						display:block;
+					}
+					&+li{
+						a{
+							border-top: 1px solid $main_line_color;
+						}	
+					}
+					&:first-child{
+						>a{border:none;}
+					}
+					ul.children, ul.sub-menu{					
+						top: 0;
+						left: 100%;
+						li{
+							ul.children{
+								li{
+									ul.children{		
+										left:-100%;
+									}
+								}
+							}	
+						}	
+					}						
+					&:hover{
+						>ul.children, >ul.sub-menu{
+							opacity:1;
+							visibility:visible;		
+						}
+					}
+				}
+			}
+			&:hover{
+				>ul.children, >ul.sub-menu{
+					opacity:1;
+					visibility:visible;
+				}
+			}
+		}
+	}
+}
+.wd-header-menu ul.nav > li.menu-item ul.sub-menu > li ul.sub-menu{left:-100%;}

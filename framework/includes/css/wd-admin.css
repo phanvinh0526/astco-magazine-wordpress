@@ -1,0 +1,112 @@
+
+/* ------------------------------------------------------------ */
+/*                           MENU CONFIG                        */
+/* ------------------------------------------------------------ */
+
+#nav-menus-frame *{box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
+.menu-item-bar dt.menu-item-handle {width:100%;transition:all 0.3s ease-in-out 0s;-moz-transition:all 0.3s ease-in-out 0s;-webkit-transition:all 0.3s ease-in-out 0s;}
+.menu-item-edit-active dt.menu-item-handle {background:#2ea2cc;border-color:#2ea2cc;color:#fff;}
+.menu-item-edit-active dt.menu-item-handle .item-type {color:#fff;} 
+.menu-item-edit-active dt.menu-item-handle .item-edit:before {color:#fff;}
+.menu-item-edit-active .menu-item-settings {border-color:#2ea2cc;}
+.menu-item-bar .menu-item-handle:hover {border-color:#2ea2cc;background:#2ea2cc;color:#fff;}
+.menu-item-bar .menu-item-handle:hover .item-type,
+.menu-item-bar .menu-item-handle:hover .item-edit:before {color:#fff;}
+.menu-item-settings > br {display:none;}
+
+.menu-item-settings {width:100%;padding:10px;}
+.description-wide,
+.menu-item-settings .description-thin,
+.menu-item-settings .colorpicker-menu {width:33.3%;padding:3px 10px 7px;margin:0!important;}
+.menu-item-actions {width:100%;}
+.menu-item-settings .description-thin,
+.menu-item-settings textarea {height:150px;}
+.menu-item-handle .item-title {}
+
+#menu-to-edit .menu-item-settings > p{height:auto;float:left;overflow:hidden;display:inline-block;}
+#menu-to-edit .menu-item-settings > div.colorpicker-menu {overflow:hidden;}
+#menu-to-edit .menu-item-settings > div.colorpicker-menu input {width:80px;float:left;}
+#menu-to-edit .menu-item-settings > div.colorpicker-menu .add-on {padding:2px;background:#fff;border:1px solid #DFDFDF;float:left;margin-left:3px;border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;}
+#menu-to-edit .menu-item-settings > p.hidden-field {display:none;}
+#menu-to-edit .input-append.color .add-on i, #menu-to-edit .input-prepend.color .add-on i {width:20px;height:20px;}
+
+.wp-editor-wrap.wd-custom-menu {clear:both;padding:3px 10px 7px;}
+#menu-to-edit .menu-item-settings > p.field-static-html {width:100%;}
+
+#menu-to-edit .wp-editor-wrap {clear:both;}
+
+/* ------------------------------------------------------------- */
+/*                       PAGE CONFIG                             */
+/* ------------------------------------------------------------- */
+
+ul.page_config_list li label {vertical-align:top;display:inline-block;width:150px;}
+
+/* ------------------------------------------------------------- */
+/*                       EDIT COLOR PICKER                       */
+/* ------------------------------------------------------------- */
+
+.colorpicker {display:none;position:absolute!important;width:120px!important;z-index:1000;background-color:#dcdcdc;box-sizing:content-box;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;}
+.colorpicker:after {border-bottom-color:#ebebeb!important}
+#config-custom-interface .toggle-enable .bg-input {float:none;margin-bottom:20px;}
+#config-custom-interface .toggle-enable .bg-input-inner {width:165px;}
+#config-custom-interface .toggle-enable select {box-shadow:none;-webkit-box-shadow:none;-moz-box-shadow:none;background:#f7f7f7}
+#config-custom-interface .toggle-enable select option {background:#f7f7f7}
+#config-custom-interface .color-picker-wrapper {float:left;width:30%;margin-right:3%;margin-bottom:10px;}
+#config-custom-interface .bg-input-inner {float:left;position:relative;}
+#config-custom-interface .color-picker-inner input {box-shadow:none;-moz-box-shadow:none;-webkit-box-shadow:none;}
+#config-custom-interface .add-on {position:absolute;right:-30px;top:4px;z-index:1000;padding:3px;background:#f3f3f3;border:1px solid #dcdcdc}
+#config-custom-interface .add-on:hover {background:#fff;border-color:#b0b0b0;}
+#config-custom-interface .select-box-content-sort .bg-input-inner  {width:136px;}
+
+/* ------------------------------------------------------------- */
+/*                  EDIT SHORTCODE AWESOME ICON                  */
+/* ------------------------------------------------------------- */
+
+.wd-select-icon i {cursor:pointer;}
+.wd-select-icon i:hover {color:red;}
+.wd-select-icon.selected i {color:red;cursor:default;}
+.wd-icon-selector > span {width:10%;display:inline-block;}
+select .fa-lg,select .fa-1x,select .fa-2x,select .fa-3x,select .fa-4x,select .fa-5x {font-size:13px!important;line-height:18px!important;}
+
+/* ------------------------------------------------------------- */
+/*                  EDIT REVOLUTION SLIDER                       */
+/* ------------------------------------------------------------- */
+
+html .tp-button.lightgrey, html .purchase.lightgrey{display:inline-block;background:transparent;border:1px solid #fff;color:#fff;font-size:16px!important;height:53px;line-height:53px!important;padding:0 47px;border-radius:0;-moz-border-radius:0;-webkit-border-radius:0;box-shadow:none;-moz-box-shadow:none;-webkit-box-shadow:none;font-weight:400;text-shadow:none!important;-moz-text-shadow:none!important;-webkit-text-shadow:none!important;text-transform:uppercase;letter-spacing:2px!important;}
+html .tp-button.lightgrey:hover, html .purchase.lightgrey:hover {box-shadow:none;-moz-box-shadow:none;-webkit-box-shadow:none;}
+
+/* ------------------------------------------------------------- */
+/*                  BLOG CONFIG                                  */
+/* ------------------------------------------------------------- */
+
+#wp_cp_custom_post_layout .area-inner0,#wp_cp_custom_post_layout .area-inner1 {padding:20px 10px;margin:10px 0 0;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;border:1px solid #dfdfdf;box-shadow:0 0 5px #dfdfdf;-moz-box-shadow:0 0 5px #dfdfdf;-webkit-box-shadow:0 0 5px #dfdfdf;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;}
+#wp_cp_custom_post_layout .area-inner0:hover,#wp_cp_custom_post_layout .area-inner1:hover {border-color:#54b8e5;box-shadow:0 0 5px #54b8e5;-moz-box-shadow:0 0 5px #54b8e5;-webkit-box-shadow:0 0 5px #54b8e5}
+#wp_cp_custom_post_layout .area-title {padding:10px 0;}
+#wp_cp_custom_post_layout label {display:inline-block;width:100px;}
+#wp_cp_custom_post_layout .description {clear:both;margin:5px 0;display:inline-block;width:100%;}
+#wp_cp_custom_post_layout .area-content > div {margin:0 0 5px;}
+#wp_cp_custom_post_layout .uploader .sortable {overflow:hidden;margin:10px 0 0;}
+#wp_cp_custom_post_layout .uploader .sortable > li {float:left;padding:0 10px 10px 0;margin:0;}
+#wp_cp_custom_post_layout a.preview-img-edit {display:inline-block;position:absolute;top:3px;right:20px;width:16px;height:16px;font-size:0;color:transparent;background:url(../images/i_edit.png) no-repeat center center;}
+#wp_cp_custom_post_layout .image-wrappper {margin:0;position:relative;line-height:0;}
+#wp_cp_custom_post_layout a.preview-img-remove {display:inline-block;position:absolute;top:3px;right:3px;width:16px;height:16px;font-size:0;color:transparent;background:url(../images/i_delete.png) no-repeat center center;}
+#wp_cp_custom_post_layout .uploader .sortable > li img {border:1px solid transparent;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;}
+#wp_cp_custom_post_layout .uploader .sortable > li .image-wrappper:hover img {border-color:#54b8e5} 
+
+html .fancybox-overlay {z-index:100000;}
+.fancybox-skin label,.fancybox-skin .label {display:inline-block;width:150px;}
+
+#wp_cp_custom_post_layout .inside .select-layout .area-inner .wd-single-post-layout .bg-input.select-box{display:inline-block;}
+#menu-posts-wpdance_html ul.wp-submenu li:last-child, #menu-posts-wpdance_html ul.wp-submenu li.wd-add-category-html-rm, #wpdance_category_html-adder.wp-hidden-children{display:none;}
+
+/* ------------------------------------------------------------- */
+/*                  BUSINESS PARTNER                             */
+/* ------------------------------------------------------------- */
+.wd-company-map .wd-company-map-textrea{
+	width: 38%;
+	float: left;
+}
+.wd-company-map .wd-company-map-data{
+	width: 60%;
+	float: right;
+}

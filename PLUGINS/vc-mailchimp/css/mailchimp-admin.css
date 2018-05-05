@@ -1,0 +1,28 @@
+
+.wpb-layout-element-button .icon-vc_mailchimp { background-image: url(mailchimp-icon.png); }
+.wpb_bartag .icon-vc_mailchimp,.wpb_element_wrapper .icon-vc_mailchimp { background-image: url(mailchimp-icon.png); }
+
+.wpb-layout-element-button .icon-mc-form { background-image: url(mc-form-icon.png); background-position: 0px 0px !important; }
+.wpb_bartag .icon-mc-form,.wpb_element_wrapper .icon-mc-form { background-image: url(mc-form-icon.png);  background-position: 0px 0px !important; }
+
+.wpb-layout-element-button .icon-mc-name { background-image: url(mc-name-icon.png); }
+.wpb_bartag .icon-mc-name,.wpb_element_wrapper .icon-mc-name { background-image: url(mc-name-icon.png); }
+
+.wpb-layout-element-button .icon-mc-lname { background-image: url(mc-lname-icon.png); }
+.wpb_bartag .icon-mc-name,.wpb_element_wrapper .icon-mc-lname { background-image: url(mc-lname-icon.png); }
+
+.wpb-layout-element-button .icon-mc-email { background-image: url(mc-email-icon.png); }
+.wpb_bartag .icon-mc-email,.wpb_element_wrapper .icon-mc-email { background-image: url(mc-email-icon.png); }
+
+.wpb-layout-element-button .icon-mc-custom { background-image: url(mc-custom-icon.png); }
+.wpb_bartag .icon-mc-custom,.wpb_element_wrapper .icon-mc-custom { background-image: url(mc-custom-icon.png); }
+
+.wpb-layout-element-button .icon-mc-submit { background-image: url(mc-submit-icon.png); }
+.wpb_bartag .icon-mc-submit,.wpb_element_wrapper .icon-mc-submit { background-image: url(mc-submit-icon.png); }
+
+.vc-mailchimp-remove-list-option{
+	text-decoration: none;
+}
+
+
+

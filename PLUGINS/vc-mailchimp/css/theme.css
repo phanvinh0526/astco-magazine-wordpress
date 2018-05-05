@@ -1,0 +1,687 @@
+.vc_mailchimp_form label {
+    display: block;
+}
+
+.vc_mailchimp_form .mc_inline_label label {
+    display: inline-block;
+    min-width: 200px;
+}
+
+.vc_mailchimp_form .mc_inline_label input {
+    display: inline-block;
+    max-width: 50%;
+}
+
+.mc-email-validation-message, .mc-success-message, .mc-error-message,.vc-mailchimp-spinner{
+    display: none;
+}
+.vc-mailchimp-spinner{
+    margin-left: 5px;
+}
+
+/* Buttons */
+
+.vc-mailchimp-sub-btn {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px 36px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    overflow: hidden;
+    -webkit-transition: color 0.3s, background-color 0.3s, box-shadow 0.3s;
+    transition: color 0.3s, background-color 0.3s, box-shadow 0.3s;
+}
+
+.no-touch .vc-mailchimp-sub-btn:before {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    -webkit-transition: height 0.3s;
+    transition: height 0.3s;
+}
+
+.no-touch .vc-mailchimp-sub-btn:hover:before {
+    height: 100%;
+}
+
+.vc-mailchimp-sub-btn span {
+    position: relative;
+}
+
+.vc-mailchimp-sub-btn i {
+    position: relative;
+    line-height: inherit;
+    vertical-align: top;
+    margin: 0 8px 0 -2px;
+}
+
+
+/* SIZE: small */
+
+.vc-mailchimp-sub-btn.size_small, input.vc-mailchimp-sub-btn.size_small {
+    padding: 8px 26px;
+    font-size: 13px;
+    border-radius: 4px;
+}
+
+
+/* SIZE: big */
+
+.vc-mailchimp-sub-btn.size_big, input.vc-mailchimp-sub-btn.size_big {
+    padding: 16px 50px;
+    font-size: 18px;
+}
+
+
+/* TYPE: outlined */
+
+.vc-mailchimp-sub-btn.outlined {
+    background-color: transparent !important;
+}
+
+
+/* COLOR: transparent */
+
+.vc-mailchimp-sub-btn.color_transparent {
+    font-weight: normal;
+    text-transform: none;
+    overflow: visible;
+    padding: 0 2px !important;
+    border: none !important;
+    background: none !important;
+}
+
+.no-touch .vc-mailchimp-sub-btn.color_transparent:before {
+    display: none;
+}
+
+.no-touch .vc-mailchimp-sub-btn.color_transparent:hover span {
+    border-bottom: 1px solid;
+}
+
+
+/* COLOR: white */
+
+.vc-mailchimp-sub-btn.color_white, a.vc-mailchimp-sub-btn.color_white {
+    background-color: #fff;
+    color: #444;
+}
+
+.no-touch .vc-mailchimp-sub-btn.color_white:before {
+    background-color: rgba(0, 0, 0, 0.06);
+}
+
+.no-touch .vc-mailchimp-sub-btn.color_white:hover, .no-touch a.vc-mailchimp-sub-btn.color_white:hover {
+    color: #444;
+}
+
+
+/* COLOR: white outlined */
+
+.vc-mailchimp-sub-btn.color_white.outlined, a.vc-mailchimp-sub-btn.color_white.outlined {
+    box-shadow: 0 0 0 2px #fff inset;
+    color: #fff;
+}
+
+.no-touch .vc-mailchimp-sub-btn.color_white.outlined:hover, .no-touch a.vc-mailchimp-sub-btn.color_white.outlined:hover {
+    color: #444;
+}
+
+.vc-mailchimp-sub-btn.color_white.outlined:before {
+    background-color: #fff;
+}
+
+
+/* COLOR: default */
+
+.vc-mailchimp-sub-btn.color_default {
+    background-color: #e8e8e8;
+    /* variable */
+    color: #666;
+    /* variable */
+}
+
+.no-touch .vc-mailchimp-sub-btn.color_default:hover {
+    color: #444;
+}
+
+.vc-mailchimp-sub-btn.color_default:before {
+    background-color: rgba(0, 0, 0, 0.06);
+}
+
+
+/* COLOR: default outlined */
+
+.vc-mailchimp-sub-btn.color_default.outlined {
+    box-shadow: 0 0 0 2px #e8e8e8 inset;
+    /* variable */
+    color: #666;
+    /* variable */
+}
+
+.no-touch .vc-mailchimp-sub-btn.color_default.outlined:hover, .no-touch .color_alternate .vc-mailchimp-sub-btn.color_default.outlined:hover {
+    color: #444;
+    /* variable */
+}
+
+.vc-mailchimp-sub-btn.color_default.outlined:before {
+    background-color: #e8e8e8;
+    /* variable */
+}
+
+
+/* COLOR: primary */
+
+button, .vc-mailchimp-sub-btn.color_primary, input[type="submit"] {
+    background-color: #d13a7a;
+    /* variable */
+    color: #fff;
+}
+
+.no-touch button:hover, .no-touch .vc-mailchimp-sub-btn.color_primary:hover, .no-touch input[type="submit"]:hover {
+    color: #fff;
+}
+
+
+/* COLOR: primary outlined */
+
+.vc-mailchimp-sub-btn.color_primary.outlined {
+    box-shadow: 0 0 0 2px #d13a7a inset;
+    /* variable */
+    color: #d13a7a;
+    /* variable */
+}
+
+.no-touch .vc-mailchimp-sub-btn.color_primary.outlined:hover, .no-touch .color_alternate .vc-mailchimp-sub-btn.color_primary.outlined:hover {
+    color: #fff;
+}
+
+.vc-mailchimp-sub-btn.color_primary.outlined:before {
+    background-color: #d13a7a;
+    /* variable */
+}
+
+
+/* COLOR: secondary */
+
+.vc-mailchimp-sub-btn.color_secondary {
+    background-color: #6254a8;
+    /* variable */
+    color: #fff;
+}
+
+.no-touch .vc-mailchimp-sub-btn.color_secondary:hover {
+    color: #fff;
+}
+
+
+/* COLOR: secondary outlined */
+
+.vc-mailchimp-sub-btn.color_secondary.outlined {
+    box-shadow: 0 0 0 2px #6254a8 inset;
+    /* variable */
+    color: #6254a8;
+    /* variable */
+}
+
+.no-touch .vc-mailchimp-sub-btn.color_secondary.outlined:hover, .no-touch .color_alternate .vc-mailchimp-sub-btn.color_secondary.outlined:hover {
+    color: #fff;
+}
+
+.vc-mailchimp-sub-btn.color_secondary.outlined:before {
+    background-color: #6254a8;
+    /* variable */
+}
+
+
+/* COLOR: contrast */
+
+.vc-mailchimp-sub-btn.color_contrast {
+    background-color: #444;
+    /* variable */
+    color: #fff;
+    /* variable */
+}
+
+.no-touch .vc-mailchimp-sub-btn.color_contrast:hover {
+    color: #fff;
+    /* variable */
+}
+
+.vc-mailchimp-sub-btn.color_contrast:before {
+    background-color: rgba(0, 0, 0, 0.06);
+}
+
+
+/* COLOR: default outlined */
+
+.vc-mailchimp-sub-btn.color_contrast.outlined {
+    box-shadow: 0 0 0 2px #444 inset;
+    /* variable */
+    color: #444;
+    /* variable */
+}
+
+.no-touch .vc-mailchimp-sub-btn.color_contrast.outlined:hover, .no-touch .color_alternate .vc-mailchimp-sub-btn.color_contrast.outlined:hover {
+    color: #fff;
+    /* variable */
+}
+
+.vc-mailchimp-sub-btn.color_contrast.outlined:before {
+    background-color: #444;
+    /* variable */
+}
+
+
+/* COLOR: pink */
+
+.vc-mailchimp-sub-btn.color_pink {
+    background-color: #ff6b6b;
+    color: #fff;
+}
+
+.no-touch .vc-mailchimp-sub-btn.color_pink:hover {
+    color: #fff;
+}
+
+
+/* COLOR: pink outlined */
+
+.vc-mailchimp-sub-btn.color_pink.outlined {
+    box-shadow: 0 0 0 2px #ff6b6b inset;
+    color: #ff6b6b;
+}
+
+.no-touch .vc-mailchimp-sub-btn.color_pink.outlined:hover {
+    color: #fff;
+}
+
+.vc-mailchimp-sub-btn.color_pink.outlined:before {
+    background-color: #ff6b6b;
+}
+
+
+/* COLOR: blue */
+
+.vc-mailchimp-sub-btn.color_blue {
+    background-color: #5ac8ed;
+    color: #fff;
+}
+
+.no-touch .vc-mailchimp-sub-btn.color_blue:hover {
+    color: #fff;
+}
+
+
+/* COLOR: blue outlined */
+
+.vc-mailchimp-sub-btn.color_blue.outlined {
+    box-shadow: 0 0 0 2px #5ac8ed inset;
+    color: #5ac8ed;
+}
+
+.no-touch .vc-mailchimp-sub-btn.color_blue.outlined:hover {
+    color: #fff;
+}
+
+.vc-mailchimp-sub-btn.color_blue.outlined:before {
+    background-color: #5ac8ed;
+}
+
+
+/* COLOR: midnight */
+
+.vc-mailchimp-sub-btn.color_midnight {
+    background-color: #2c3e50;
+    color: #fff;
+}
+
+.no-touch .vc-mailchimp-sub-btn.color_midnight:hover {
+    color: #fff;
+}
+
+
+/* COLOR: midnight outlined */
+
+.vc-mailchimp-sub-btn.color_midnight.outlined {
+    box-shadow: 0 0 0 2px #2c3e50 inset;
+    color: #2c3e50;
+}
+
+.no-touch .vc-mailchimp-sub-btn.color_midnight.outlined:hover {
+    color: #fff;
+}
+
+.vc-mailchimp-sub-btn.color_midnight.outlined:before {
+    background-color: #2c3e50;
+}
+
+
+/* COLOR: purple */
+
+.vc-mailchimp-sub-btn.color_purple {
+    background-color: #8560a8;
+    color: #fff;
+}
+
+.no-touch .vc-mailchimp-sub-btn.color_purple:hover {
+    color: #fff;
+}
+
+
+/* COLOR: purple outlined */
+
+.vc-mailchimp-sub-btn.color_purple.outlined {
+    box-shadow: 0 0 0 2px #8560a8 inset;
+    color: #8560a8;
+}
+
+.no-touch .vc-mailchimp-sub-btn.color_purple.outlined:hover {
+    color: #fff;
+}
+
+.vc-mailchimp-sub-btn.color_purple.outlined:before {
+    background-color: #8560a8;
+}
+
+
+/* COLOR: navy */
+
+.vc-mailchimp-sub-btn.color_navy {
+    background-color: #1265a8;
+    color: #fff;
+}
+
+.no-touch .vc-mailchimp-sub-btn.color_navy:hover {
+    color: #fff;
+}
+
+
+/* COLOR: navy outlined */
+
+.vc-mailchimp-sub-btn.color_navy.outlined {
+    box-shadow: 0 0 0 2px #1265a8 inset;
+    color: #1265a8;
+}
+
+.no-touch .vc-mailchimp-sub-btn.color_navy.outlined:hover {
+    color: #fff;
+}
+
+.vc-mailchimp-sub-btn.color_navy.outlined:before {
+    background-color: #1265a8;
+}
+
+
+/* COLOR: green */
+
+.vc-mailchimp-sub-btn.color_green {
+    background-color: #59ba41;
+    color: #fff;
+}
+
+.no-touch .vc-mailchimp-sub-btn.color_green:hover {
+    color: #fff;
+}
+
+
+/* COLOR: green outlined */
+
+.vc-mailchimp-sub-btn.color_green.outlined {
+    box-shadow: 0 0 0 2px #59ba41 inset;
+    color: #59ba41;
+}
+
+.no-touch .vc-mailchimp-sub-btn.color_green.outlined:hover {
+    color: #fff;
+}
+
+.vc-mailchimp-sub-btn.color_green.outlined:before {
+    background-color: #59ba41;
+}
+
+
+/* COLOR: yellow */
+
+.vc-mailchimp-sub-btn.color_yellow {
+    background-color: #fac000;
+    color: #fff;
+}
+
+.vc-mailchimp-sub-btn.color_yellow:before {
+    background-color: rgba(0, 0, 0, 0.06);
+}
+
+.no-touch .vc-mailchimp-sub-btn.color_yellow:hover {
+    color: #fff;
+}
+
+
+/* COLOR: yellow outlined */
+
+.vc-mailchimp-sub-btn.color_yellow.outlined {
+    box-shadow: 0 0 0 2px #fac000 inset;
+    color: #fac000;
+}
+
+.no-touch .vc-mailchimp-sub-btn.color_yellow.outlined:hover {
+    color: #fff;
+}
+
+.vc-mailchimp-sub-btn.color_yellow.outlined:before {
+    background-color: #fac000;
+}
+
+
+/* COLOR: teal */
+
+.vc-mailchimp-sub-btn.color_teal {
+    background-color: #008b83;
+    color: #fff;
+}
+
+.no-touch .vc-mailchimp-sub-btn.color_teal:hover {
+    color: #fff;
+}
+
+
+/* COLOR: teal outlined */
+
+.vc-mailchimp-sub-btn.color_teal.outlined {
+    box-shadow: 0 0 0 2px #008b83 inset;
+    color: #008b83;
+}
+
+.no-touch .vc-mailchimp-sub-btn.color_teal.outlined:hover {
+    color: #fff;
+}
+
+.vc-mailchimp-sub-btn.color_teal.outlined:before {
+    background-color: #008b83;
+}
+
+
+/* COLOR: brown */
+
+.vc-mailchimp-sub-btn.color_brown {
+    background-color: #6a4530;
+    color: #fff;
+}
+
+.no-touch .vc-mailchimp-sub-btn.color_brown:hover {
+    color: #fff;
+}
+
+
+/* COLOR: brown outlined */
+
+.vc-mailchimp-sub-btn.color_brown.outlined {
+    box-shadow: 0 0 0 2px #6a4530 inset;
+    color: #6a4530;
+}
+
+.no-touch .vc-mailchimp-sub-btn.color_brown.outlined:hover {
+    color: #fff;
+}
+
+.vc-mailchimp-sub-btn.color_brown.outlined:before {
+    background-color: #6a4530;
+}
+
+
+/* COLOR: cream */
+
+.vc-mailchimp-sub-btn.color_cream {
+    background-color: #f5ddbf;
+    color: #605c57;
+}
+
+.vc-mailchimp-sub-btn.color_cream:before {
+    background-color: rgba(0, 0, 0, 0.06);
+}
+
+.no-touch .vc-mailchimp-sub-btn.color_cream:hover {
+    color: #605c57;
+}
+
+
+/* COLOR: cream outlined */
+
+.vc-mailchimp-sub-btn.color_cream.outlined {
+    box-shadow: 0 0 0 2px #f5ddbf inset;
+    color: #f5ddbf;
+}
+
+.no-touch .vc-mailchimp-sub-btn.color_cream.outlined:hover {
+    color: #605c57;
+}
+
+.vc-mailchimp-sub-btn.color_cream.outlined:before {
+    background-color: #f5ddbf;
+}
+
+
+/* COLOR: red */
+
+.vc-mailchimp-sub-btn.color_red {
+    background-color: #f40;
+    color: #fff;
+}
+
+.no-touch .vc-mailchimp-sub-btn.color_red:hover {
+    color: #fff;
+}
+
+
+/* COLOR: red outlined */
+
+.vc-mailchimp-sub-btn.color_red.outlined {
+    box-shadow: 0 0 0 2px #f40 inset;
+    color: #f40;
+}
+
+.no-touch .vc-mailchimp-sub-btn.color_red.outlined:hover {
+    color: #fff;
+}
+
+.vc-mailchimp-sub-btn.color_red.outlined:before {
+    background-color: #f40;
+}
+
+
+/* COLOR: lime */
+
+.vc-mailchimp-sub-btn.color_lime {
+    background-color: #baeb59;
+    color: #656c57;
+}
+
+.vc-mailchimp-sub-btn.color_lime:before {
+    background-color: rgba(0, 0, 0, 0.06);
+}
+
+.no-touch .vc-mailchimp-sub-btn.color_lime:hover {
+    color: #656c57;
+}
+
+
+/* COLOR: lime outlined */
+
+.vc-mailchimp-sub-btn.color_lime.outlined {
+    box-shadow: 0 0 0 2px #baeb59 inset;
+    color: #baeb59;
+}
+
+.no-touch .vc-mailchimp-sub-btn.color_lime.outlined:hover {
+    color: #656c57;
+}
+
+.vc-mailchimp-sub-btn.color_lime.outlined:before {
+    background-color: #baeb59;
+}
+
+.vc-mailchimp-sub-btn {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    white-space: nowrap;
+    position: relative;
+    cursor: pointer;
+    padding: 5px 20px;
+    /* temp */
+}
+
+
+/* Visual Composer button */
+
+.vcmailchimp-sub-button-cont.align_left {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 6px;
+}
+
+.align_center > .vcmailchimp-sub-button-cont.align_left {
+    margin: 0 10px;
+}
+
+.vcmailchimp-sub-button-cont.align_center {
+    display: block;
+    text-align: center;
+}
+
+.vcmailchimp-sub-button-cont.align_right {
+    float: right;
+    margin-left: 10px;
+}
+
+.vc_mailchimp_form_cont .thin {
+    font-weight: 300;
+}
+
+.vc_mailchimp_form_cont .bold {
+    font-weight: 700;
+}
+
+.vc_mailchimp_form_cont .align_left {
+    text-align: left;
+}
+
+.vc_mailchimp_form_cont .align_right {
+    text-align: right;
+}
+
+.vc_mailchimp_form_cont .align_center {
+    text-align: center;
+}
+
+.vc_mailchimp_form_cont .align_justify {
+    text-align: justify;
+}
